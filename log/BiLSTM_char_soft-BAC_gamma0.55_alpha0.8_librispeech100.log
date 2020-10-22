@@ -1,0 +1,1045 @@
+2020-09-24 22:08:57,620 neural_sp.models.seq2seq.encoders.encoder_base line:28 INFO: Overriding EncoderBase class.
+2020-09-24 22:08:57,784 neural_sp.models.seq2seq.encoders.rnn line:254 INFO: ===== Initialize RNNEncoder with uniform distribution =====
+2020-09-24 22:08:57,788 neural_sp.models.modules.initialization line:100 INFO: Initialize rnn.0.weight_ih_l0 with uniform / 0.100
+2020-09-24 22:08:57,795 neural_sp.models.modules.initialization line:100 INFO: Initialize rnn.0.weight_hh_l0 with uniform / 0.100
+2020-09-24 22:08:57,795 neural_sp.models.modules.initialization line:97 INFO: Initialize rnn.0.bias_ih_l0 with constant / 0.000
+2020-09-24 22:08:57,795 neural_sp.models.modules.initialization line:97 INFO: Initialize rnn.0.bias_hh_l0 with constant / 0.000
+2020-09-24 22:08:57,799 neural_sp.models.modules.initialization line:100 INFO: Initialize rnn.0.weight_ih_l0_reverse with uniform / 0.100
+2020-09-24 22:08:57,806 neural_sp.models.modules.initialization line:100 INFO: Initialize rnn.0.weight_hh_l0_reverse with uniform / 0.100
+2020-09-24 22:08:57,806 neural_sp.models.modules.initialization line:97 INFO: Initialize rnn.0.bias_ih_l0_reverse with constant / 0.000
+2020-09-24 22:08:57,806 neural_sp.models.modules.initialization line:97 INFO: Initialize rnn.0.bias_hh_l0_reverse with constant / 0.000
+2020-09-24 22:08:57,813 neural_sp.models.modules.initialization line:100 INFO: Initialize rnn.1.weight_ih_l0 with uniform / 0.100
+2020-09-24 22:08:57,820 neural_sp.models.modules.initialization line:100 INFO: Initialize rnn.1.weight_hh_l0 with uniform / 0.100
+2020-09-24 22:08:57,820 neural_sp.models.modules.initialization line:97 INFO: Initialize rnn.1.bias_ih_l0 with constant / 0.000
+2020-09-24 22:08:57,820 neural_sp.models.modules.initialization line:97 INFO: Initialize rnn.1.bias_hh_l0 with constant / 0.000
+2020-09-24 22:08:57,827 neural_sp.models.modules.initialization line:100 INFO: Initialize rnn.1.weight_ih_l0_reverse with uniform / 0.100
+2020-09-24 22:08:57,834 neural_sp.models.modules.initialization line:100 INFO: Initialize rnn.1.weight_hh_l0_reverse with uniform / 0.100
+2020-09-24 22:08:57,834 neural_sp.models.modules.initialization line:97 INFO: Initialize rnn.1.bias_ih_l0_reverse with constant / 0.000
+2020-09-24 22:08:57,834 neural_sp.models.modules.initialization line:97 INFO: Initialize rnn.1.bias_hh_l0_reverse with constant / 0.000
+2020-09-24 22:08:57,841 neural_sp.models.modules.initialization line:100 INFO: Initialize rnn.2.weight_ih_l0 with uniform / 0.100
+2020-09-24 22:08:57,848 neural_sp.models.modules.initialization line:100 INFO: Initialize rnn.2.weight_hh_l0 with uniform / 0.100
+2020-09-24 22:08:57,848 neural_sp.models.modules.initialization line:97 INFO: Initialize rnn.2.bias_ih_l0 with constant / 0.000
+2020-09-24 22:08:57,848 neural_sp.models.modules.initialization line:97 INFO: Initialize rnn.2.bias_hh_l0 with constant / 0.000
+2020-09-24 22:08:57,855 neural_sp.models.modules.initialization line:100 INFO: Initialize rnn.2.weight_ih_l0_reverse with uniform / 0.100
+2020-09-24 22:08:57,862 neural_sp.models.modules.initialization line:100 INFO: Initialize rnn.2.weight_hh_l0_reverse with uniform / 0.100
+2020-09-24 22:08:57,862 neural_sp.models.modules.initialization line:97 INFO: Initialize rnn.2.bias_ih_l0_reverse with constant / 0.000
+2020-09-24 22:08:57,862 neural_sp.models.modules.initialization line:97 INFO: Initialize rnn.2.bias_hh_l0_reverse with constant / 0.000
+2020-09-24 22:08:57,869 neural_sp.models.modules.initialization line:100 INFO: Initialize rnn.3.weight_ih_l0 with uniform / 0.100
+2020-09-24 22:08:57,876 neural_sp.models.modules.initialization line:100 INFO: Initialize rnn.3.weight_hh_l0 with uniform / 0.100
+2020-09-24 22:08:57,876 neural_sp.models.modules.initialization line:97 INFO: Initialize rnn.3.bias_ih_l0 with constant / 0.000
+2020-09-24 22:08:57,876 neural_sp.models.modules.initialization line:97 INFO: Initialize rnn.3.bias_hh_l0 with constant / 0.000
+2020-09-24 22:08:57,883 neural_sp.models.modules.initialization line:100 INFO: Initialize rnn.3.weight_ih_l0_reverse with uniform / 0.100
+2020-09-24 22:08:57,890 neural_sp.models.modules.initialization line:100 INFO: Initialize rnn.3.weight_hh_l0_reverse with uniform / 0.100
+2020-09-24 22:08:57,890 neural_sp.models.modules.initialization line:97 INFO: Initialize rnn.3.bias_ih_l0_reverse with constant / 0.000
+2020-09-24 22:08:57,890 neural_sp.models.modules.initialization line:97 INFO: Initialize rnn.3.bias_hh_l0_reverse with constant / 0.000
+2020-09-24 22:08:57,897 neural_sp.models.modules.initialization line:100 INFO: Initialize rnn.4.weight_ih_l0 with uniform / 0.100
+2020-09-24 22:08:57,904 neural_sp.models.modules.initialization line:100 INFO: Initialize rnn.4.weight_hh_l0 with uniform / 0.100
+2020-09-24 22:08:57,904 neural_sp.models.modules.initialization line:97 INFO: Initialize rnn.4.bias_ih_l0 with constant / 0.000
+2020-09-24 22:08:57,904 neural_sp.models.modules.initialization line:97 INFO: Initialize rnn.4.bias_hh_l0 with constant / 0.000
+2020-09-24 22:08:57,911 neural_sp.models.modules.initialization line:100 INFO: Initialize rnn.4.weight_ih_l0_reverse with uniform / 0.100
+2020-09-24 22:08:57,918 neural_sp.models.modules.initialization line:100 INFO: Initialize rnn.4.weight_hh_l0_reverse with uniform / 0.100
+2020-09-24 22:08:57,918 neural_sp.models.modules.initialization line:97 INFO: Initialize rnn.4.bias_ih_l0_reverse with constant / 0.000
+2020-09-24 22:08:57,918 neural_sp.models.modules.initialization line:97 INFO: Initialize rnn.4.bias_hh_l0_reverse with constant / 0.000
+2020-09-24 22:08:57,918 neural_sp.models.seq2seq.decoders.decoder_base line:32 INFO: Overriding DecoderBase class.
+2020-09-24 22:08:57,919 neural_sp.models.seq2seq.decoders.decoder_base line:32 INFO: Overriding DecoderBase class.
+2020-09-24 22:08:57,919 neural_sp.models.seq2seq.decoders.las line:401 INFO: ===== Initialize RNNDecoder with uniform distribution =====
+2020-09-24 22:08:57,919 neural_sp.models.modules.initialization line:100 INFO: Initialize ctc.output.weight with uniform / 0.100
+2020-09-24 22:08:57,920 neural_sp.models.modules.initialization line:97 INFO: Initialize ctc.output.bias with constant / 0.000
+2020-09-24 22:08:57,942 __main__ line:182 INFO: accum_grad_n_steps: 1
+2020-09-24 22:08:57,942 __main__ line:182 INFO: adaptive_number_ratio: 0.0
+2020-09-24 22:08:57,942 __main__ line:182 INFO: adaptive_size_ratio: 0.0
+2020-09-24 22:08:57,942 __main__ line:182 INFO: asr_init: None
+2020-09-24 22:08:57,942 __main__ line:182 INFO: asr_init_enc_only: False
+2020-09-24 22:08:57,943 __main__ line:182 INFO: attn_conv_n_channels: 10
+2020-09-24 22:08:57,943 __main__ line:182 INFO: attn_conv_width: 201
+2020-09-24 22:08:57,943 __main__ line:182 INFO: attn_dim: 128
+2020-09-24 22:08:57,943 __main__ line:182 INFO: attn_n_heads: 1
+2020-09-24 22:08:57,943 __main__ line:182 INFO: attn_sharpening_factor: 1.0
+2020-09-24 22:08:57,943 __main__ line:182 INFO: attn_sigmoid: False
+2020-09-24 22:08:57,943 __main__ line:182 INFO: attn_type: location
+2020-09-24 22:08:57,943 __main__ line:182 INFO: batch_size: 32
+2020-09-24 22:08:57,943 __main__ line:182 INFO: bidirectional_sum_fwd_bwd: 1
+2020-09-24 22:08:57,943 __main__ line:182 INFO: bptt: 0
+2020-09-24 22:08:57,943 __main__ line:182 INFO: bwd_weight: 0.0
+2020-09-24 22:08:57,943 __main__ line:182 INFO: clip_grad_norm: 5.0
+2020-09-24 22:08:57,943 __main__ line:182 INFO: config: conf/asr/blstm_ctc.yaml
+2020-09-24 22:08:57,943 __main__ line:182 INFO: config2: None
+2020-09-24 22:08:57,943 __main__ line:182 INFO: conv_batch_norm: 0
+2020-09-24 22:08:57,943 __main__ line:182 INFO: conv_bottleneck_dim: 0
+2020-09-24 22:08:57,943 __main__ line:182 INFO: conv_channels: 32_32
+2020-09-24 22:08:57,943 __main__ line:182 INFO: conv_in_channel: 1
+2020-09-24 22:08:57,943 __main__ line:182 INFO: conv_kernel_sizes: (3,3)_(3,3)
+2020-09-24 22:08:57,943 __main__ line:182 INFO: conv_layer_norm: False
+2020-09-24 22:08:57,943 __main__ line:182 INFO: conv_poolings: (2,2)_(2,2)
+2020-09-24 22:08:57,944 __main__ line:182 INFO: conv_strides: (1,1)_(1,1)
+2020-09-24 22:08:57,944 __main__ line:182 INFO: convert_to_sgd_epoch: 100
+2020-09-24 22:08:57,944 __main__ line:182 INFO: corpus: librispeech
+2020-09-24 22:08:57,944 __main__ line:182 INFO: ctc_fc_list: 
+2020-09-24 22:08:57,944 __main__ line:182 INFO: ctc_fc_list_sub1: 
+2020-09-24 22:08:57,944 __main__ line:182 INFO: ctc_fc_list_sub2: 
+2020-09-24 22:08:57,944 __main__ line:182 INFO: ctc_lsm_prob: 0.1
+2020-09-24 22:08:57,944 __main__ line:182 INFO: ctc_weight: 1.0
+2020-09-24 22:08:57,944 __main__ line:182 INFO: ctc_weight_sub1: 0.0
+2020-09-24 22:08:57,944 __main__ line:182 INFO: ctc_weight_sub2: 0.0
+2020-09-24 22:08:57,944 __main__ line:182 INFO: cudnn_benchmark: 1
+2020-09-24 22:08:57,944 __main__ line:182 INFO: dec_bottleneck_dim: 1024
+2020-09-24 22:08:57,944 __main__ line:182 INFO: dec_n_layers: 1
+2020-09-24 22:08:57,944 __main__ line:182 INFO: dec_n_projs: 0
+2020-09-24 22:08:57,944 __main__ line:182 INFO: dec_n_units: 512
+2020-09-24 22:08:57,944 __main__ line:182 INFO: dec_type: lstm
+2020-09-24 22:08:57,944 __main__ line:182 INFO: dev_set: exp/corpus/dataset/dev_other_100_bac30.tsv
+2020-09-24 22:08:57,944 __main__ line:182 INFO: dev_set_sub1: False
+2020-09-24 22:08:57,944 __main__ line:182 INFO: dev_set_sub2: False
+2020-09-24 22:08:57,944 __main__ line:182 INFO: dict: exp/corpus/dict/train_100_bac30.txt
+2020-09-24 22:08:57,944 __main__ line:182 INFO: dict_sub1: False
+2020-09-24 22:08:57,945 __main__ line:182 INFO: dict_sub2: False
+2020-09-24 22:08:57,945 __main__ line:182 INFO: discourse_aware: False
+2020-09-24 22:08:57,945 __main__ line:182 INFO: distillation_weight: 0.1
+2020-09-24 22:08:57,945 __main__ line:182 INFO: do_bac: 1
+2020-09-24 22:08:57,945 __main__ line:182 INFO: do_gdc2: 1
+2020-09-24 22:08:57,945 __main__ line:182 INFO: do_normal: 1
+2020-09-24 22:08:57,945 __main__ line:182 INFO: dropout_att: 0.0
+2020-09-24 22:08:57,945 __main__ line:182 INFO: dropout_dec: 0.0
+2020-09-24 22:08:57,945 __main__ line:182 INFO: dropout_emb: 0.0
+2020-09-24 22:08:57,945 __main__ line:182 INFO: dropout_enc: 0.4
+2020-09-24 22:08:57,945 __main__ line:182 INFO: dropout_in: 0.0
+2020-09-24 22:08:57,945 __main__ line:182 INFO: dynamic_batching: True
+2020-09-24 22:08:57,945 __main__ line:182 INFO: early_stop_patient_n_epochs: 5
+2020-09-24 22:08:57,945 __main__ line:182 INFO: emb_dim: 512
+2020-09-24 22:08:57,945 __main__ line:182 INFO: enc_n_layers: 5
+2020-09-24 22:08:57,945 __main__ line:182 INFO: enc_n_layers_sub1: 0
+2020-09-24 22:08:57,945 __main__ line:182 INFO: enc_n_layers_sub2: 0
+2020-09-24 22:08:57,945 __main__ line:182 INFO: enc_n_projs: 0
+2020-09-24 22:08:57,945 __main__ line:182 INFO: enc_n_units: 512
+2020-09-24 22:08:57,945 __main__ line:182 INFO: enc_type: blstm
+2020-09-24 22:08:57,945 __main__ line:182 INFO: eps: 1e-06
+2020-09-24 22:08:57,946 __main__ line:182 INFO: eval_sets: []
+2020-09-24 22:08:57,946 __main__ line:182 INFO: eval_start_epoch: 1
+2020-09-24 22:08:57,946 __main__ line:182 INFO: external_lm: None
+2020-09-24 22:08:57,946 __main__ line:182 INFO: freeze_encoder: False
+2020-09-24 22:08:57,946 __main__ line:182 INFO: freq_width: 27
+2020-09-24 22:08:57,946 __main__ line:182 INFO: gamma: 0.55
+2020-09-24 22:08:57,946 __main__ line:182 INFO: gmm_attn_n_mixtures: 5
+2020-09-24 22:08:57,946 __main__ line:182 INFO: input_dim: 83
+2020-09-24 22:08:57,946 __main__ line:182 INFO: input_noise_std: 0
+2020-09-24 22:08:57,946 __main__ line:182 INFO: input_type: speech
+2020-09-24 22:08:57,946 __main__ line:182 INFO: job_name: python
+2020-09-24 22:08:57,946 __main__ line:182 INFO: lc_chunk_size_left: 0
+2020-09-24 22:08:57,946 __main__ line:182 INFO: lc_chunk_size_right: 0
+2020-09-24 22:08:57,946 __main__ line:182 INFO: lm_fusion: 
+2020-09-24 22:08:57,946 __main__ line:182 INFO: lm_init: False
+2020-09-24 22:08:57,946 __main__ line:182 INFO: lr: 0.001
+2020-09-24 22:08:57,946 __main__ line:182 INFO: lr_decay_patient_n_epochs: 0
+2020-09-24 22:08:57,946 __main__ line:182 INFO: lr_decay_rate: 0.85
+2020-09-24 22:08:57,946 __main__ line:182 INFO: lr_decay_start_epoch: 10
+2020-09-24 22:08:57,946 __main__ line:182 INFO: lr_decay_type: metric
+2020-09-24 22:08:57,947 __main__ line:182 INFO: lr_factor: 10.0
+2020-09-24 22:08:57,947 __main__ line:182 INFO: lsm_prob: 0.0
+2020-09-24 22:08:57,947 __main__ line:182 INFO: max_n_frames: 1600
+2020-09-24 22:08:57,947 __main__ line:182 INFO: max_n_time_masks: 20
+2020-09-24 22:08:57,947 __main__ line:182 INFO: mbr_ce_weight: 0.01
+2020-09-24 22:08:57,947 __main__ line:182 INFO: mbr_nbest: 4
+2020-09-24 22:08:57,947 __main__ line:182 INFO: mbr_softmax_smoothing: 0.8
+2020-09-24 22:08:57,947 __main__ line:182 INFO: mbr_training: False
+2020-09-24 22:08:57,947 __main__ line:182 INFO: mem_len: 0
+2020-09-24 22:08:57,947 __main__ line:182 INFO: metric: edit_distance
+2020-09-24 22:08:57,947 __main__ line:182 INFO: min_n_frames: 40
+2020-09-24 22:08:57,947 __main__ line:182 INFO: mocha_1dconv: False
+2020-09-24 22:08:57,947 __main__ line:182 INFO: mocha_chunk_size: 1
+2020-09-24 22:08:57,947 __main__ line:182 INFO: mocha_eps: 1e-06
+2020-09-24 22:08:57,947 __main__ line:182 INFO: mocha_init_r: -4
+2020-09-24 22:08:57,947 __main__ line:182 INFO: mocha_latency_loss_weight: 0.0
+2020-09-24 22:08:57,947 __main__ line:182 INFO: mocha_latency_metric: 
+2020-09-24 22:08:57,947 __main__ line:182 INFO: mocha_n_heads_chunk: 1
+2020-09-24 22:08:57,947 __main__ line:182 INFO: mocha_n_heads_mono: 1
+2020-09-24 22:08:57,947 __main__ line:182 INFO: mocha_no_denominator: False
+2020-09-24 22:08:57,947 __main__ line:182 INFO: mocha_quantity_loss_weight: 0.0
+2020-09-24 22:08:57,948 __main__ line:182 INFO: mocha_std: 1.0
+2020-09-24 22:08:57,948 __main__ line:182 INFO: model_save_dir: exp/result/asr
+2020-09-24 22:08:57,948 __main__ line:182 INFO: mtl_per_batch: 0
+2020-09-24 22:08:57,948 __main__ line:182 INFO: n_epochs: 50
+2020-09-24 22:08:57,948 __main__ line:182 INFO: n_freq_masks: 0
+2020-09-24 22:08:57,948 __main__ line:182 INFO: n_gpus: 1
+2020-09-24 22:08:57,948 __main__ line:182 INFO: n_skips: 3
+2020-09-24 22:08:57,948 __main__ line:182 INFO: n_splices: 1
+2020-09-24 22:08:57,948 __main__ line:182 INFO: n_stacks: 3
+2020-09-24 22:08:57,948 __main__ line:182 INFO: n_time_masks: 0
+2020-09-24 22:08:57,948 __main__ line:182 INFO: nlsyms: False
+2020-09-24 22:08:57,948 __main__ line:182 INFO: optimizer: adam
+2020-09-24 22:08:57,948 __main__ line:182 INFO: param_init: 0.1
+2020-09-24 22:08:57,948 __main__ line:182 INFO: print_step: 1000
+2020-09-24 22:08:57,948 __main__ line:182 INFO: recog_asr_state_carry_over: False
+2020-09-24 22:08:57,948 __main__ line:182 INFO: recog_batch_size: 32
+2020-09-24 22:08:57,948 __main__ line:182 INFO: recog_beam_width: 1
+2020-09-24 22:08:57,948 __main__ line:182 INFO: recog_bwd_attention: False
+2020-09-24 22:08:57,948 __main__ line:182 INFO: recog_chunk_sync: False
+2020-09-24 22:08:57,948 __main__ line:182 INFO: recog_coverage_penalty: 0.0
+2020-09-24 22:08:57,948 __main__ line:182 INFO: recog_coverage_threshold: 0.0
+2020-09-24 22:08:57,948 __main__ line:182 INFO: recog_ctc_spike_forced_decoding: False
+2020-09-24 22:08:57,949 __main__ line:182 INFO: recog_ctc_vad: True
+2020-09-24 22:08:57,949 __main__ line:182 INFO: recog_ctc_vad_blank_threshold: 40
+2020-09-24 22:08:57,949 __main__ line:182 INFO: recog_ctc_vad_n_accum_frames: 4000
+2020-09-24 22:08:57,949 __main__ line:182 INFO: recog_ctc_vad_spike_threshold: 0.1
+2020-09-24 22:08:57,949 __main__ line:182 INFO: recog_ctc_weight: 0.0
+2020-09-24 22:08:57,949 __main__ line:182 INFO: recog_dir: False
+2020-09-24 22:08:57,949 __main__ line:182 INFO: recog_eos_threshold: 1.5
+2020-09-24 22:08:57,949 __main__ line:182 INFO: recog_first_n_utt: -1
+2020-09-24 22:08:57,949 __main__ line:182 INFO: recog_fwd_bwd_attention: False
+2020-09-24 22:08:57,949 __main__ line:182 INFO: recog_gnmt_decoding: False
+2020-09-24 22:08:57,949 __main__ line:182 INFO: recog_length_norm: False
+2020-09-24 22:08:57,949 __main__ line:182 INFO: recog_length_penalty: 0.0
+2020-09-24 22:08:57,949 __main__ line:182 INFO: recog_lm: False
+2020-09-24 22:08:57,949 __main__ line:182 INFO: recog_lm_bwd: False
+2020-09-24 22:08:57,949 __main__ line:182 INFO: recog_lm_bwd_weight: 0.0
+2020-09-24 22:08:57,949 __main__ line:182 INFO: recog_lm_second: False
+2020-09-24 22:08:57,949 __main__ line:182 INFO: recog_lm_second_weight: 0.0
+2020-09-24 22:08:57,949 __main__ line:182 INFO: recog_lm_state_carry_over: False
+2020-09-24 22:08:57,949 __main__ line:182 INFO: recog_lm_weight: 0.0
+2020-09-24 22:08:57,949 __main__ line:182 INFO: recog_max_len_ratio: 1.0
+2020-09-24 22:08:57,949 __main__ line:182 INFO: recog_mem_len: 0
+2020-09-24 22:08:57,950 __main__ line:182 INFO: recog_metric: edit_distance
+2020-09-24 22:08:57,950 __main__ line:182 INFO: recog_min_len_ratio: 0.0
+2020-09-24 22:08:57,950 __main__ line:182 INFO: recog_mma_delay_threshold: -1
+2020-09-24 22:08:57,950 __main__ line:182 INFO: recog_model: False
+2020-09-24 22:08:57,950 __main__ line:182 INFO: recog_model_bwd: False
+2020-09-24 22:08:57,950 __main__ line:182 INFO: recog_n_average: 1
+2020-09-24 22:08:57,950 __main__ line:182 INFO: recog_n_gpus: 0
+2020-09-24 22:08:57,950 __main__ line:182 INFO: recog_oracle: False
+2020-09-24 22:08:57,950 __main__ line:182 INFO: recog_resolving_unk: False
+2020-09-24 22:08:57,950 __main__ line:182 INFO: recog_reverse_lm_rescoring: False
+2020-09-24 22:08:57,950 __main__ line:182 INFO: recog_sets: []
+2020-09-24 22:08:57,950 __main__ line:182 INFO: recog_softmax_smoothing: 1.0
+2020-09-24 22:08:57,950 __main__ line:182 INFO: recog_stdout: False
+2020-09-24 22:08:57,950 __main__ line:182 INFO: recog_streaming: False
+2020-09-24 22:08:57,950 __main__ line:182 INFO: recog_unit: False
+2020-09-24 22:08:57,950 __main__ line:182 INFO: recog_wordlm: False
+2020-09-24 22:08:57,950 __main__ line:182 INFO: remove_old_checkpoints: True
+2020-09-24 22:08:57,950 __main__ line:182 INFO: replace_sos: False
+2020-09-24 22:08:57,950 __main__ line:182 INFO: resume: None
+2020-09-24 22:08:57,950 __main__ line:182 INFO: sequence_summary_network: False
+2020-09-24 22:08:57,950 __main__ line:182 INFO: shuffle_bucket: False
+2020-09-24 22:08:57,951 __main__ line:182 INFO: sort_short2long: True
+2020-09-24 22:08:57,951 __main__ line:182 INFO: sort_stop_epoch: 100
+2020-09-24 22:08:57,951 __main__ line:182 INFO: ss_prob: 0.0
+2020-09-24 22:08:57,951 __main__ line:182 INFO: ss_type: constant
+2020-09-24 22:08:57,951 __main__ line:182 INFO: stdout: 0
+2020-09-24 22:08:57,951 __main__ line:182 INFO: sub1_weight: 0.0
+2020-09-24 22:08:57,951 __main__ line:182 INFO: sub2_weight: 0.0
+2020-09-24 22:08:57,951 __main__ line:182 INFO: subsample: 1_1_1_1_1
+2020-09-24 22:08:57,951 __main__ line:182 INFO: subsample_factor: 1
+2020-09-24 22:08:57,951 __main__ line:182 INFO: subsample_factor_sub1: 1
+2020-09-24 22:08:57,951 __main__ line:182 INFO: subsample_factor_sub2: 1
+2020-09-24 22:08:57,951 __main__ line:182 INFO: subsample_type: drop
+2020-09-24 22:08:57,951 __main__ line:182 INFO: task_specific_layer: 0
+2020-09-24 22:08:57,951 __main__ line:182 INFO: teacher: False
+2020-09-24 22:08:57,951 __main__ line:182 INFO: teacher_lm: False
+2020-09-24 22:08:57,951 __main__ line:182 INFO: tie_embedding: False
+2020-09-24 22:08:57,951 __main__ line:182 INFO: time_width: 100
+2020-09-24 22:08:57,951 __main__ line:182 INFO: time_width_upper: 1.0
+2020-09-24 22:08:57,951 __main__ line:182 INFO: train_dtype: float32
+2020-09-24 22:08:57,951 __main__ line:182 INFO: train_set: exp/corpus/dataset/train_100_bac30.tsv
+2020-09-24 22:08:57,951 __main__ line:182 INFO: train_set_sub1: False
+2020-09-24 22:08:57,952 __main__ line:182 INFO: train_set_sub2: False
+2020-09-24 22:08:57,952 __main__ line:182 INFO: unit: bac
+2020-09-24 22:08:57,952 __main__ line:182 INFO: unit_sub1: False
+2020-09-24 22:08:57,952 __main__ line:182 INFO: unit_sub2: False
+2020-09-24 22:08:57,952 __main__ line:182 INFO: vocab: 33
+2020-09-24 22:08:57,952 __main__ line:182 INFO: vocab_sub1: -1
+2020-09-24 22:08:57,952 __main__ line:182 INFO: vocab_sub2: -1
+2020-09-24 22:08:57,952 __main__ line:182 INFO: warmup_n_steps: 0
+2020-09-24 22:08:57,952 __main__ line:182 INFO: warmup_start_lr: 0.0001
+2020-09-24 22:08:57,952 __main__ line:182 INFO: weight_decay: 1e-06
+2020-09-24 22:08:57,952 __main__ line:182 INFO: weight_noise_std: 0
+2020-09-24 22:08:57,952 __main__ line:182 INFO: wp_model: exp/corpus/dict/train_100_30.model
+2020-09-24 22:08:57,952 __main__ line:182 INFO: wp_model_sub1: False
+2020-09-24 22:08:57,952 __main__ line:182 INFO: wp_model_sub2: False
+2020-09-24 22:08:57,953 __main__ line:187 INFO: dec_fwd.ctc.output.bias 33
+2020-09-24 22:08:57,953 __main__ line:187 INFO: dec_fwd.ctc.output.weight 16896
+2020-09-24 22:08:57,953 __main__ line:187 INFO: enc.rnn.0.bias_hh_l0 2048
+2020-09-24 22:08:57,953 __main__ line:187 INFO: enc.rnn.0.bias_hh_l0_reverse 2048
+2020-09-24 22:08:57,953 __main__ line:187 INFO: enc.rnn.0.bias_ih_l0 2048
+2020-09-24 22:08:57,953 __main__ line:187 INFO: enc.rnn.0.bias_ih_l0_reverse 2048
+2020-09-24 22:08:57,953 __main__ line:187 INFO: enc.rnn.0.weight_hh_l0 1048576
+2020-09-24 22:08:57,953 __main__ line:187 INFO: enc.rnn.0.weight_hh_l0_reverse 1048576
+2020-09-24 22:08:57,953 __main__ line:187 INFO: enc.rnn.0.weight_ih_l0 509952
+2020-09-24 22:08:57,953 __main__ line:187 INFO: enc.rnn.0.weight_ih_l0_reverse 509952
+2020-09-24 22:08:57,953 __main__ line:187 INFO: enc.rnn.1.bias_hh_l0 2048
+2020-09-24 22:08:57,953 __main__ line:187 INFO: enc.rnn.1.bias_hh_l0_reverse 2048
+2020-09-24 22:08:57,953 __main__ line:187 INFO: enc.rnn.1.bias_ih_l0 2048
+2020-09-24 22:08:57,953 __main__ line:187 INFO: enc.rnn.1.bias_ih_l0_reverse 2048
+2020-09-24 22:08:57,954 __main__ line:187 INFO: enc.rnn.1.weight_hh_l0 1048576
+2020-09-24 22:08:57,954 __main__ line:187 INFO: enc.rnn.1.weight_hh_l0_reverse 1048576
+2020-09-24 22:08:57,954 __main__ line:187 INFO: enc.rnn.1.weight_ih_l0 1048576
+2020-09-24 22:08:57,954 __main__ line:187 INFO: enc.rnn.1.weight_ih_l0_reverse 1048576
+2020-09-24 22:08:57,954 __main__ line:187 INFO: enc.rnn.2.bias_hh_l0 2048
+2020-09-24 22:08:57,954 __main__ line:187 INFO: enc.rnn.2.bias_hh_l0_reverse 2048
+2020-09-24 22:08:57,954 __main__ line:187 INFO: enc.rnn.2.bias_ih_l0 2048
+2020-09-24 22:08:57,954 __main__ line:187 INFO: enc.rnn.2.bias_ih_l0_reverse 2048
+2020-09-24 22:08:57,954 __main__ line:187 INFO: enc.rnn.2.weight_hh_l0 1048576
+2020-09-24 22:08:57,954 __main__ line:187 INFO: enc.rnn.2.weight_hh_l0_reverse 1048576
+2020-09-24 22:08:57,954 __main__ line:187 INFO: enc.rnn.2.weight_ih_l0 1048576
+2020-09-24 22:08:57,954 __main__ line:187 INFO: enc.rnn.2.weight_ih_l0_reverse 1048576
+2020-09-24 22:08:57,954 __main__ line:187 INFO: enc.rnn.3.bias_hh_l0 2048
+2020-09-24 22:08:57,954 __main__ line:187 INFO: enc.rnn.3.bias_hh_l0_reverse 2048
+2020-09-24 22:08:57,954 __main__ line:187 INFO: enc.rnn.3.bias_ih_l0 2048
+2020-09-24 22:08:57,954 __main__ line:187 INFO: enc.rnn.3.bias_ih_l0_reverse 2048
+2020-09-24 22:08:57,954 __main__ line:187 INFO: enc.rnn.3.weight_hh_l0 1048576
+2020-09-24 22:08:57,954 __main__ line:187 INFO: enc.rnn.3.weight_hh_l0_reverse 1048576
+2020-09-24 22:08:57,954 __main__ line:187 INFO: enc.rnn.3.weight_ih_l0 1048576
+2020-09-24 22:08:57,955 __main__ line:187 INFO: enc.rnn.3.weight_ih_l0_reverse 1048576
+2020-09-24 22:08:57,955 __main__ line:187 INFO: enc.rnn.4.bias_hh_l0 2048
+2020-09-24 22:08:57,955 __main__ line:187 INFO: enc.rnn.4.bias_hh_l0_reverse 2048
+2020-09-24 22:08:57,955 __main__ line:187 INFO: enc.rnn.4.bias_ih_l0 2048
+2020-09-24 22:08:57,955 __main__ line:187 INFO: enc.rnn.4.bias_ih_l0_reverse 2048
+2020-09-24 22:08:57,955 __main__ line:187 INFO: enc.rnn.4.weight_hh_l0 1048576
+2020-09-24 22:08:57,955 __main__ line:187 INFO: enc.rnn.4.weight_hh_l0_reverse 1048576
+2020-09-24 22:08:57,955 __main__ line:187 INFO: enc.rnn.4.weight_ih_l0 1048576
+2020-09-24 22:08:57,955 __main__ line:187 INFO: enc.rnn.4.weight_ih_l0_reverse 1048576
+2020-09-24 22:08:57,956 __main__ line:188 INFO: Total 19.95 M parameters
+2020-09-24 22:08:57,956 __main__ line:189 INFO: Speech2Text(
+  (enc): RNNEncoder(
+    (dropout_in): Dropout(p=0.0)
+    (rnn): ModuleList(
+      (0): LSTM(249, 512, batch_first=True, bidirectional=True)
+      (1): LSTM(512, 512, batch_first=True, bidirectional=True)
+      (2): LSTM(512, 512, batch_first=True, bidirectional=True)
+      (3): LSTM(512, 512, batch_first=True, bidirectional=True)
+      (4): LSTM(512, 512, batch_first=True, bidirectional=True)
+    )
+    (dropout): Dropout(p=0.4)
+    (padding): Padding()
+  )
+  (dec_fwd): RNNDecoder(
+    (ctc): CTC(
+      (output): Linear(in_features=512, out_features=33, bias=True)
+      (softGDCCuda): SoftGDCCuda()
+    )
+  )
+)
+2020-09-24 22:08:57,956 neural_sp.trainers.optimizer line:29 INFO: ===== Freezed parameters =====
+2020-09-24 22:09:03,039 neural_sp.models.base line:116 INFO: torch.backends.cudnn.benchmark: True
+2020-09-24 22:09:03,040 neural_sp.models.base line:117 INFO: torch.backends.cudnn.enabled: True
+2020-09-24 22:09:05,465 __main__ line:296 INFO: PID: 7484
+2020-09-24 22:09:05,465 __main__ line:297 INFO: USERNAME: 132
+2020-09-24 22:09:05,465 __main__ line:298 INFO: #GPU: 1
+2020-09-24 22:09:05,659 numba.cuda.cudadrv.driver line:230 INFO: init
+2020-09-24 22:30:52,240 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 108.498
+2020-09-24 22:30:52,241 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 54.132
+2020-09-24 22:30:52,241 __main__ line:398 INFO: step:1000(ep:0.67) loss:83.286(54.132)/lr:0.0010000/bs:16/xlen:1463/ylen:274 (21.78 min)
+2020-09-24 22:46:16,638 __main__ line:425 INFO: ========== EPOCH:1 (37.19 min) ==========
+2020-09-24 22:50:44,241 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-24 22:50:44,241 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-24 22:50:44,241 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-24 22:50:44,241 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:1): 74.31 %
+2020-09-24 22:50:44,241 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:1): 34.86 %
+2020-09-24 22:50:44,242 neural_sp.trainers.lr_scheduler line:144 INFO: ||||| Top-1 Score |||||
+2020-09-24 22:50:44,242 neural_sp.trainers.lr_scheduler line:150 INFO: ----- Top-1: epoch1 (74.307)
+2020-09-24 22:50:44,562 neural_sp.trainers.lr_scheduler line:217 INFO: => Saved checkpoint (epoch:1): exp/result/asr/train_100_bac30/blstm512H5L_sumfwdbwd_stack3_lr0.001_bs32_gamma0.55_normal_gdc2_2/model.epoch-1
+2020-09-24 22:50:44,562 __main__ line:454 INFO: Evaluation time: 4.47 min
+2020-09-24 22:58:38,159 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 66.550
+2020-09-24 22:58:38,159 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 46.142
+2020-09-24 22:58:38,159 __main__ line:398 INFO: step:2000(ep:1.34) loss:63.217(46.142)/lr:0.0010000/bs:16/xlen:1258/ylen:255 (7.89 min)
+2020-09-24 23:24:36,557 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 55.311
+2020-09-24 23:24:36,557 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 46.104
+2020-09-24 23:24:36,558 __main__ line:398 INFO: step:3000(ep:1.93) loss:50.771(46.104)/lr:0.0010000/bs:16/xlen:1569/ylen:298 (25.97 min)
+2020-09-24 23:27:47,555 __main__ line:425 INFO: ========== EPOCH:2 (37.05 min) ==========
+2020-09-24 23:32:21,867 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-24 23:32:21,867 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-24 23:32:21,867 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-24 23:32:21,867 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:2): 65.26 %
+2020-09-24 23:32:21,867 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:2): 30.23 %
+2020-09-24 23:32:21,867 neural_sp.trainers.lr_scheduler line:144 INFO: ||||| Top-1 Score |||||
+2020-09-24 23:32:21,867 neural_sp.trainers.lr_scheduler line:150 INFO: ----- Top-1: epoch2 (65.257)
+2020-09-24 23:32:22,225 neural_sp.trainers.lr_scheduler line:217 INFO: => Saved checkpoint (epoch:2): exp/result/asr/train_100_bac30/blstm512H5L_sumfwdbwd_stack3_lr0.001_bs32_gamma0.55_normal_gdc2_2/model.epoch-2
+2020-09-24 23:32:22,226 __main__ line:454 INFO: Evaluation time: 4.58 min
+2020-09-24 23:51:06,179 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 40.021
+2020-09-24 23:51:06,179 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 39.589
+2020-09-24 23:51:06,180 __main__ line:398 INFO: step:4000(ep:2.60) loss:42.135(39.589)/lr:0.0010000/bs:16/xlen:1433/ylen:286 (18.73 min)
+2020-09-25 00:09:19,404 __main__ line:425 INFO: ========== EPOCH:3 (36.95 min) ==========
+2020-09-25 00:13:50,941 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-25 00:13:50,942 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-25 00:13:50,942 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-25 00:13:50,942 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:3): 61.44 %
+2020-09-25 00:13:50,942 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:3): 28.55 %
+2020-09-25 00:13:50,942 neural_sp.trainers.lr_scheduler line:144 INFO: ||||| Top-1 Score |||||
+2020-09-25 00:13:50,942 neural_sp.trainers.lr_scheduler line:150 INFO: ----- Top-1: epoch3 (61.438)
+2020-09-25 00:13:51,298 neural_sp.trainers.lr_scheduler line:217 INFO: => Saved checkpoint (epoch:3): exp/result/asr/train_100_bac30/blstm512H5L_sumfwdbwd_stack3_lr0.001_bs32_gamma0.55_normal_gdc2_2/model.epoch-3
+2020-09-25 00:13:51,298 __main__ line:454 INFO: Evaluation time: 4.53 min
+2020-09-25 00:19:15,194 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 37.424
+2020-09-25 00:19:15,194 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 43.589
+2020-09-25 00:19:15,195 __main__ line:398 INFO: step:5000(ep:3.27) loss:35.416(43.589)/lr:0.0010000/bs:16/xlen:1170/ylen:233 (5.40 min)
+2020-09-25 00:44:31,142 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 35.804
+2020-09-25 00:44:31,143 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 41.234
+2020-09-25 00:44:31,143 __main__ line:398 INFO: step:6000(ep:3.87) loss:28.977(41.234)/lr:0.0010000/bs:16/xlen:1542/ylen:295 (25.27 min)
+2020-09-25 00:50:48,319 __main__ line:425 INFO: ========== EPOCH:4 (36.95 min) ==========
+2020-09-25 00:55:21,681 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-25 00:55:21,681 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-25 00:55:21,681 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-25 00:55:21,681 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:4): 58.92 %
+2020-09-25 00:55:21,681 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:4): 27.32 %
+2020-09-25 00:55:21,682 neural_sp.trainers.lr_scheduler line:144 INFO: ||||| Top-1 Score |||||
+2020-09-25 00:55:21,682 neural_sp.trainers.lr_scheduler line:150 INFO: ----- Top-1: epoch4 (58.920)
+2020-09-25 00:55:22,031 neural_sp.trainers.lr_scheduler line:217 INFO: => Saved checkpoint (epoch:4): exp/result/asr/train_100_bac30/blstm512H5L_sumfwdbwd_stack3_lr0.001_bs32_gamma0.55_normal_gdc2_2/model.epoch-4
+2020-09-25 00:55:22,031 __main__ line:454 INFO: Evaluation time: 4.56 min
+2020-09-25 01:11:19,027 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 29.321
+2020-09-25 01:11:19,027 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 39.323
+2020-09-25 01:11:19,028 __main__ line:398 INFO: step:7000(ep:4.54) loss:35.493(39.323)/lr:0.0010000/bs:16/xlen:1400/ylen:267 (15.95 min)
+2020-09-25 01:32:20,899 __main__ line:425 INFO: ========== EPOCH:5 (36.98 min) ==========
+2020-09-25 01:36:54,392 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-25 01:36:54,392 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-25 01:36:54,392 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-25 01:36:54,392 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:5): 57.35 %
+2020-09-25 01:36:54,392 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:5): 26.81 %
+2020-09-25 01:36:54,392 neural_sp.trainers.lr_scheduler line:144 INFO: ||||| Top-1 Score |||||
+2020-09-25 01:36:54,393 neural_sp.trainers.lr_scheduler line:150 INFO: ----- Top-1: epoch5 (57.346)
+2020-09-25 01:36:54,765 neural_sp.trainers.lr_scheduler line:217 INFO: => Saved checkpoint (epoch:5): exp/result/asr/train_100_bac30/blstm512H5L_sumfwdbwd_stack3_lr0.001_bs32_gamma0.55_normal_gdc2_2/model.epoch-5
+2020-09-25 01:36:54,766 __main__ line:454 INFO: Evaluation time: 4.56 min
+2020-09-25 01:40:10,462 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 29.260
+2020-09-25 01:40:10,462 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 37.673
+2020-09-25 01:40:10,463 __main__ line:398 INFO: step:8000(ep:5.20) loss:25.175(37.673)/lr:0.0010000/bs:16/xlen:1012/ylen:172 (3.26 min)
+2020-09-25 02:04:36,988 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 28.050
+2020-09-25 02:04:36,989 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 38.747
+2020-09-25 02:04:36,989 __main__ line:398 INFO: step:9000(ep:5.80) loss:28.401(38.747)/lr:0.0010000/bs:16/xlen:1516/ylen:292 (24.44 min)
+2020-09-25 02:13:59,392 __main__ line:425 INFO: ========== EPOCH:6 (37.08 min) ==========
+2020-09-25 02:18:34,439 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-25 02:18:34,439 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-25 02:18:34,439 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-25 02:18:34,439 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:6): 56.08 %
+2020-09-25 02:18:34,439 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:6): 25.99 %
+2020-09-25 02:18:34,439 neural_sp.trainers.lr_scheduler line:144 INFO: ||||| Top-1 Score |||||
+2020-09-25 02:18:34,440 neural_sp.trainers.lr_scheduler line:150 INFO: ----- Top-1: epoch6 (56.082)
+2020-09-25 02:18:34,817 neural_sp.trainers.lr_scheduler line:217 INFO: => Saved checkpoint (epoch:6): exp/result/asr/train_100_bac30/blstm512H5L_sumfwdbwd_stack3_lr0.001_bs32_gamma0.55_normal_gdc2_2/model.epoch-6
+2020-09-25 02:18:34,818 __main__ line:454 INFO: Evaluation time: 4.59 min
+2020-09-25 02:31:42,343 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 24.725
+2020-09-25 02:31:42,343 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 37.212
+2020-09-25 02:31:42,343 __main__ line:398 INFO: step:10000(ep:6.47) loss:31.478(37.212)/lr:0.0010000/bs:16/xlen:1361/ylen:277 (13.13 min)
+2020-09-25 02:31:42,561 matplotlib.legend line:1282 WARNING: No handles with labels found to put in legend.
+2020-09-25 02:31:42,706 matplotlib.legend line:1282 WARNING: No handles with labels found to put in legend.
+2020-09-25 02:55:45,798 __main__ line:425 INFO: ========== EPOCH:7 (37.18 min) ==========
+2020-09-25 03:00:22,767 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-25 03:00:22,768 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-25 03:00:22,768 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-25 03:00:22,768 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:7): 55.17 %
+2020-09-25 03:00:22,768 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:7): 25.73 %
+2020-09-25 03:00:22,768 neural_sp.trainers.lr_scheduler line:144 INFO: ||||| Top-1 Score |||||
+2020-09-25 03:00:22,768 neural_sp.trainers.lr_scheduler line:150 INFO: ----- Top-1: epoch7 (55.168)
+2020-09-25 03:00:23,093 neural_sp.trainers.lr_scheduler line:217 INFO: => Saved checkpoint (epoch:7): exp/result/asr/train_100_bac30/blstm512H5L_sumfwdbwd_stack3_lr0.001_bs32_gamma0.55_normal_gdc2_2/model.epoch-7
+2020-09-25 03:00:23,093 __main__ line:454 INFO: Evaluation time: 4.62 min
+2020-09-25 03:01:43,299 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 25.528
+2020-09-25 03:01:43,299 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 37.403
+2020-09-25 03:01:43,300 __main__ line:398 INFO: step:11000(ep:7.13) loss:14.629(37.403)/lr:0.0010000/bs:32/xlen:737/ylen:154 (1.34 min)
+2020-09-25 03:25:05,935 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 23.415
+2020-09-25 03:25:05,935 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 38.117
+2020-09-25 03:25:05,935 __main__ line:398 INFO: step:12000(ep:7.73) loss:20.081(38.117)/lr:0.0010000/bs:16/xlen:1489/ylen:256 (23.38 min)
+2020-09-25 03:37:36,035 __main__ line:425 INFO: ========== EPOCH:8 (37.22 min) ==========
+2020-09-25 03:42:11,202 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-25 03:42:11,202 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-25 03:42:11,202 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-25 03:42:11,202 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:8): 54.84 %
+2020-09-25 03:42:11,202 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:8): 25.74 %
+2020-09-25 03:42:11,202 neural_sp.trainers.lr_scheduler line:144 INFO: ||||| Top-1 Score |||||
+2020-09-25 03:42:11,202 neural_sp.trainers.lr_scheduler line:150 INFO: ----- Top-1: epoch8 (54.836)
+2020-09-25 03:42:11,556 neural_sp.trainers.lr_scheduler line:217 INFO: => Saved checkpoint (epoch:8): exp/result/asr/train_100_bac30/blstm512H5L_sumfwdbwd_stack3_lr0.001_bs32_gamma0.55_normal_gdc2_2/model.epoch-8
+2020-09-25 03:42:11,557 __main__ line:454 INFO: Evaluation time: 4.59 min
+2020-09-25 03:52:45,282 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 22.043
+2020-09-25 03:52:45,282 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 37.585
+2020-09-25 03:52:45,283 __main__ line:398 INFO: step:13000(ep:8.40) loss:17.243(37.585)/lr:0.0010000/bs:16/xlen:1316/ylen:242 (10.56 min)
+2020-09-25 04:19:15,887 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 24.195
+2020-09-25 04:19:15,887 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 40.525
+2020-09-25 04:19:15,888 __main__ line:398 INFO: step:14000(ep:9.00) loss:24.640(40.525)/lr:0.0010000/bs:16/xlen:1599/ylen:272 (26.51 min)
+2020-09-25 04:19:22,649 __main__ line:425 INFO: ========== EPOCH:9 (37.18 min) ==========
+2020-09-25 04:23:57,127 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-25 04:23:57,127 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-25 04:23:57,128 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-25 04:23:57,128 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:9): 54.18 %
+2020-09-25 04:23:57,128 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:9): 25.43 %
+2020-09-25 04:23:57,128 neural_sp.trainers.lr_scheduler line:144 INFO: ||||| Top-1 Score |||||
+2020-09-25 04:23:57,128 neural_sp.trainers.lr_scheduler line:150 INFO: ----- Top-1: epoch9 (54.185)
+2020-09-25 04:23:57,498 neural_sp.trainers.lr_scheduler line:217 INFO: => Saved checkpoint (epoch:9): exp/result/asr/train_100_bac30/blstm512H5L_sumfwdbwd_stack3_lr0.001_bs32_gamma0.55_normal_gdc2_2/model.epoch-9
+2020-09-25 04:23:57,498 __main__ line:454 INFO: Evaluation time: 4.58 min
+2020-09-25 04:45:40,637 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 19.625
+2020-09-25 04:45:40,637 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 42.934
+2020-09-25 04:45:40,638 __main__ line:398 INFO: step:15000(ep:9.67) loss:19.039(42.934)/lr:0.0010000/bs:16/xlen:1462/ylen:294 (21.72 min)
+2020-09-25 05:01:10,687 __main__ line:425 INFO: ========== EPOCH:10 (37.22 min) ==========
+2020-09-25 05:05:44,980 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-25 05:05:44,980 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-25 05:05:44,980 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-25 05:05:44,980 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:10): 53.58 %
+2020-09-25 05:05:44,980 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:10): 25.05 %
+2020-09-25 05:05:44,980 neural_sp.trainers.lr_scheduler line:144 INFO: ||||| Top-1 Score |||||
+2020-09-25 05:05:44,980 neural_sp.trainers.lr_scheduler line:150 INFO: ----- Top-1: epoch10 (53.584)
+2020-09-25 05:05:45,394 neural_sp.trainers.lr_scheduler line:217 INFO: => Saved checkpoint (epoch:10): exp/result/asr/train_100_bac30/blstm512H5L_sumfwdbwd_stack3_lr0.001_bs32_gamma0.55_normal_gdc2_2/model.epoch-10
+2020-09-25 05:05:45,394 __main__ line:454 INFO: Evaluation time: 4.58 min
+2020-09-25 05:13:42,115 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 20.289
+2020-09-25 05:13:42,116 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 39.463
+2020-09-25 05:13:42,117 __main__ line:398 INFO: step:16000(ep:10.33) loss:20.434(39.463)/lr:0.0010000/bs:16/xlen:1256/ylen:253 (7.95 min)
+2020-09-25 05:39:38,745 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 21.591
+2020-09-25 05:39:38,745 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 39.358
+2020-09-25 05:39:38,745 __main__ line:398 INFO: step:17000(ep:10.93) loss:25.241(39.358)/lr:0.0010000/bs:16/xlen:1568/ylen:314 (25.94 min)
+2020-09-25 05:42:58,017 __main__ line:425 INFO: ========== EPOCH:11 (37.21 min) ==========
+2020-09-25 05:47:33,040 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-25 05:47:33,040 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-25 05:47:33,040 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-25 05:47:33,041 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:11): 53.55 %
+2020-09-25 05:47:33,041 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:11): 25.05 %
+2020-09-25 05:47:33,041 neural_sp.trainers.lr_scheduler line:144 INFO: ||||| Top-1 Score |||||
+2020-09-25 05:47:33,041 neural_sp.trainers.lr_scheduler line:150 INFO: ----- Top-1: epoch11 (53.547)
+2020-09-25 05:47:33,381 neural_sp.trainers.lr_scheduler line:217 INFO: => Saved checkpoint (epoch:11): exp/result/asr/train_100_bac30/blstm512H5L_sumfwdbwd_stack3_lr0.001_bs32_gamma0.55_normal_gdc2_2/model.epoch-11
+2020-09-25 05:47:33,381 __main__ line:454 INFO: Evaluation time: 4.59 min
+2020-09-25 06:06:21,809 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 18.285
+2020-09-25 06:06:21,809 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 40.822
+2020-09-25 06:06:21,809 __main__ line:398 INFO: step:18000(ep:11.60) loss:19.013(40.822)/lr:0.0010000/bs:16/xlen:1432/ylen:252 (18.81 min)
+2020-09-25 06:24:48,635 __main__ line:425 INFO: ========== EPOCH:12 (37.25 min) ==========
+2020-09-25 06:29:22,308 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-25 06:29:22,309 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-25 06:29:22,309 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-25 06:29:22,309 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:12): 52.86 %
+2020-09-25 06:29:22,309 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:12): 24.66 %
+2020-09-25 06:29:22,309 neural_sp.trainers.lr_scheduler line:144 INFO: ||||| Top-1 Score |||||
+2020-09-25 06:29:22,309 neural_sp.trainers.lr_scheduler line:150 INFO: ----- Top-1: epoch12 (52.856)
+2020-09-25 06:29:22,663 neural_sp.trainers.lr_scheduler line:217 INFO: => Saved checkpoint (epoch:12): exp/result/asr/train_100_bac30/blstm512H5L_sumfwdbwd_stack3_lr0.001_bs32_gamma0.55_normal_gdc2_2/model.epoch-12
+2020-09-25 06:29:22,663 __main__ line:454 INFO: Evaluation time: 4.57 min
+2020-09-25 06:34:50,498 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 19.064
+2020-09-25 06:34:50,498 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 42.629
+2020-09-25 06:34:50,499 __main__ line:398 INFO: step:19000(ep:12.27) loss:16.461(42.629)/lr:0.0010000/bs:16/xlen:1165/ylen:219 (5.46 min)
+2020-09-25 07:00:10,198 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 19.804
+2020-09-25 07:00:10,199 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 42.529
+2020-09-25 07:00:10,200 __main__ line:398 INFO: step:20000(ep:12.86) loss:22.346(42.529)/lr:0.0010000/bs:16/xlen:1541/ylen:288 (25.33 min)
+2020-09-25 07:00:10,424 matplotlib.legend line:1282 WARNING: No handles with labels found to put in legend.
+2020-09-25 07:00:10,586 matplotlib.legend line:1282 WARNING: No handles with labels found to put in legend.
+2020-09-25 07:06:38,119 __main__ line:425 INFO: ========== EPOCH:13 (37.26 min) ==========
+2020-09-25 07:11:12,036 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-25 07:11:12,036 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-25 07:11:12,036 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-25 07:11:12,036 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:13): 52.41 %
+2020-09-25 07:11:12,036 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:13): 24.50 %
+2020-09-25 07:11:12,037 neural_sp.trainers.lr_scheduler line:144 INFO: ||||| Top-1 Score |||||
+2020-09-25 07:11:12,037 neural_sp.trainers.lr_scheduler line:150 INFO: ----- Top-1: epoch13 (52.408)
+2020-09-25 07:11:12,359 neural_sp.trainers.lr_scheduler line:217 INFO: => Saved checkpoint (epoch:13): exp/result/asr/train_100_bac30/blstm512H5L_sumfwdbwd_stack3_lr0.001_bs32_gamma0.55_normal_gdc2_2/model.epoch-13
+2020-09-25 07:11:12,359 __main__ line:454 INFO: Evaluation time: 4.57 min
+2020-09-25 07:27:13,401 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 17.463
+2020-09-25 07:27:13,401 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 40.590
+2020-09-25 07:27:13,401 __main__ line:398 INFO: step:21000(ep:13.53) loss:24.821(40.590)/lr:0.0010000/bs:16/xlen:1398/ylen:266 (16.02 min)
+2020-09-25 07:48:28,061 __main__ line:425 INFO: ========== EPOCH:14 (37.26 min) ==========
+2020-09-25 07:53:05,700 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-25 07:53:05,700 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-25 07:53:05,700 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-25 07:53:05,700 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:14): 52.33 %
+2020-09-25 07:53:05,700 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:14): 24.55 %
+2020-09-25 07:53:05,700 neural_sp.trainers.lr_scheduler line:144 INFO: ||||| Top-1 Score |||||
+2020-09-25 07:53:05,700 neural_sp.trainers.lr_scheduler line:150 INFO: ----- Top-1: epoch14 (52.327)
+2020-09-25 07:53:06,050 neural_sp.trainers.lr_scheduler line:217 INFO: => Saved checkpoint (epoch:14): exp/result/asr/train_100_bac30/blstm512H5L_sumfwdbwd_stack3_lr0.001_bs32_gamma0.55_normal_gdc2_2/model.epoch-14
+2020-09-25 07:53:06,050 __main__ line:454 INFO: Evaluation time: 4.63 min
+2020-09-25 07:56:18,364 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 18.405
+2020-09-25 07:56:18,364 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 37.816
+2020-09-25 07:56:18,364 __main__ line:398 INFO: step:22000(ep:14.20) loss:12.344(37.816)/lr:0.0010000/bs:16/xlen:1003/ylen:220 (3.21 min)
+2020-09-25 08:20:46,973 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 18.229
+2020-09-25 08:20:46,973 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 43.089
+2020-09-25 08:20:46,974 __main__ line:398 INFO: step:23000(ep:14.80) loss:16.852(43.089)/lr:0.0010000/bs:16/xlen:1515/ylen:266 (24.48 min)
+2020-09-25 08:30:19,954 __main__ line:425 INFO: ========== EPOCH:15 (37.23 min) ==========
+2020-09-25 08:34:51,698 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-25 08:34:51,698 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-25 08:34:51,698 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-25 08:34:51,699 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:15): 51.77 %
+2020-09-25 08:34:51,699 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:15): 24.29 %
+2020-09-25 08:34:51,699 neural_sp.trainers.lr_scheduler line:144 INFO: ||||| Top-1 Score |||||
+2020-09-25 08:34:51,699 neural_sp.trainers.lr_scheduler line:150 INFO: ----- Top-1: epoch15 (51.774)
+2020-09-25 08:34:52,048 neural_sp.trainers.lr_scheduler line:217 INFO: => Saved checkpoint (epoch:15): exp/result/asr/train_100_bac30/blstm512H5L_sumfwdbwd_stack3_lr0.001_bs32_gamma0.55_normal_gdc2_2/model.epoch-15
+2020-09-25 08:34:52,048 __main__ line:454 INFO: Evaluation time: 4.53 min
+2020-09-25 08:48:01,773 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 16.824
+2020-09-25 08:48:01,774 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 37.421
+2020-09-25 08:48:01,774 __main__ line:398 INFO: step:24000(ep:15.47) loss:10.429(37.421)/lr:0.0010000/bs:16/xlen:1359/ylen:255 (13.16 min)
+2020-09-25 09:12:08,866 __main__ line:425 INFO: ========== EPOCH:16 (37.28 min) ==========
+2020-09-25 09:16:42,235 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-25 09:16:42,235 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-25 09:16:42,235 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-25 09:16:42,235 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:16): 51.32 %
+2020-09-25 09:16:42,235 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:16): 24.07 %
+2020-09-25 09:16:42,235 neural_sp.trainers.lr_scheduler line:144 INFO: ||||| Top-1 Score |||||
+2020-09-25 09:16:42,235 neural_sp.trainers.lr_scheduler line:150 INFO: ----- Top-1: epoch16 (51.318)
+2020-09-25 09:16:42,586 neural_sp.trainers.lr_scheduler line:217 INFO: => Saved checkpoint (epoch:16): exp/result/asr/train_100_bac30/blstm512H5L_sumfwdbwd_stack3_lr0.001_bs32_gamma0.55_normal_gdc2_2/model.epoch-16
+2020-09-25 09:16:42,586 __main__ line:454 INFO: Evaluation time: 4.56 min
+2020-09-25 09:17:58,632 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 17.980
+2020-09-25 09:17:58,632 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 36.383
+2020-09-25 09:17:58,632 __main__ line:398 INFO: step:25000(ep:16.12) loss:10.076(36.383)/lr:0.0010000/bs:32/xlen:719/ylen:153 (1.27 min)
+2020-09-25 09:41:27,067 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 16.827
+2020-09-25 09:41:27,067 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 39.655
+2020-09-25 09:41:27,068 __main__ line:398 INFO: step:26000(ep:16.73) loss:23.337(39.655)/lr:0.0010000/bs:16/xlen:1488/ylen:292 (23.47 min)
+2020-09-25 09:54:01,641 __main__ line:425 INFO: ========== EPOCH:17 (37.32 min) ==========
+2020-09-25 09:58:37,404 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-25 09:58:37,405 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-25 09:58:37,405 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-25 09:58:37,405 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:17): 51.47 %
+2020-09-25 09:58:37,405 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:17): 24.13 %
+2020-09-25 09:58:37,405 neural_sp.trainers.lr_scheduler line:166 INFO: Epoch 17: reducing learning rate to 0.0008500
+2020-09-25 09:58:37,575 __main__ line:454 INFO: Evaluation time: 4.60 min
+2020-09-25 10:09:07,375 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 15.899
+2020-09-25 10:09:07,375 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 36.938
+2020-09-25 10:09:07,375 __main__ line:398 INFO: step:27000(ep:17.40) loss:11.789(36.938)/lr:0.0008500/bs:16/xlen:1314/ylen:248 (10.50 min)
+2020-09-25 10:35:59,643 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 16.592
+2020-09-25 10:35:59,643 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 38.622
+2020-09-25 10:35:59,644 __main__ line:398 INFO: step:28000(ep:17.99) loss:16.593(38.622)/lr:0.0008500/bs:16/xlen:1598/ylen:296 (26.87 min)
+2020-09-25 10:36:13,446 __main__ line:425 INFO: ========== EPOCH:18 (37.60 min) ==========
+2020-09-25 10:40:47,579 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-25 10:40:47,579 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-25 10:40:47,580 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-25 10:40:47,580 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:18): 50.66 %
+2020-09-25 10:40:47,580 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:18): 23.85 %
+2020-09-25 10:40:47,580 neural_sp.trainers.lr_scheduler line:144 INFO: ||||| Top-1 Score |||||
+2020-09-25 10:40:47,580 neural_sp.trainers.lr_scheduler line:150 INFO: ----- Top-1: epoch18 (50.662)
+2020-09-25 10:40:47,944 neural_sp.trainers.lr_scheduler line:217 INFO: => Saved checkpoint (epoch:18): exp/result/asr/train_100_bac30/blstm512H5L_sumfwdbwd_stack3_lr0.001_bs32_gamma0.55_normal_gdc2_2/model.epoch-18
+2020-09-25 10:40:47,944 __main__ line:454 INFO: Evaluation time: 4.57 min
+2020-09-25 11:02:32,931 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 13.457
+2020-09-25 11:02:32,931 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 35.690
+2020-09-25 11:02:32,932 __main__ line:398 INFO: step:29000(ep:18.66) loss:18.210(35.690)/lr:0.0008500/bs:16/xlen:1461/ylen:269 (21.75 min)
+2020-09-25 11:18:01,750 __main__ line:425 INFO: ========== EPOCH:19 (37.23 min) ==========
+2020-09-25 11:22:36,514 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-25 11:22:36,514 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-25 11:22:36,514 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-25 11:22:36,514 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:19): 50.42 %
+2020-09-25 11:22:36,514 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:19): 23.81 %
+2020-09-25 11:22:36,514 neural_sp.trainers.lr_scheduler line:144 INFO: ||||| Top-1 Score |||||
+2020-09-25 11:22:36,514 neural_sp.trainers.lr_scheduler line:150 INFO: ----- Top-1: epoch19 (50.421)
+2020-09-25 11:22:36,862 neural_sp.trainers.lr_scheduler line:217 INFO: => Saved checkpoint (epoch:19): exp/result/asr/train_100_bac30/blstm512H5L_sumfwdbwd_stack3_lr0.001_bs32_gamma0.55_normal_gdc2_2/model.epoch-19
+2020-09-25 11:22:36,862 __main__ line:454 INFO: Evaluation time: 4.59 min
+2020-09-25 11:30:30,521 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 14.067
+2020-09-25 11:30:30,521 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 31.210
+2020-09-25 11:30:30,522 __main__ line:398 INFO: step:30000(ep:19.33) loss:17.838(31.210)/lr:0.0008500/bs:16/xlen:1253/ylen:255 (7.89 min)
+2020-09-25 11:30:30,733 matplotlib.legend line:1282 WARNING: No handles with labels found to put in legend.
+2020-09-25 11:30:30,878 matplotlib.legend line:1282 WARNING: No handles with labels found to put in legend.
+2020-09-25 11:56:24,088 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 14.969
+2020-09-25 11:56:24,088 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 39.915
+2020-09-25 11:56:24,089 __main__ line:398 INFO: step:31000(ep:19.93) loss:13.806(39.915)/lr:0.0008500/bs:16/xlen:1567/ylen:268 (25.89 min)
+2020-09-25 11:59:49,982 __main__ line:425 INFO: ========== EPOCH:20 (37.22 min) ==========
+2020-09-25 12:04:24,089 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-25 12:04:24,089 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-25 12:04:24,089 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-25 12:04:24,089 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:20): 50.25 %
+2020-09-25 12:04:24,089 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:20): 23.76 %
+2020-09-25 12:04:24,090 neural_sp.trainers.lr_scheduler line:144 INFO: ||||| Top-1 Score |||||
+2020-09-25 12:04:24,090 neural_sp.trainers.lr_scheduler line:150 INFO: ----- Top-1: epoch20 (50.252)
+2020-09-25 12:04:24,432 neural_sp.trainers.lr_scheduler line:217 INFO: => Saved checkpoint (epoch:20): exp/result/asr/train_100_bac30/blstm512H5L_sumfwdbwd_stack3_lr0.001_bs32_gamma0.55_normal_gdc2_2/model.epoch-20
+2020-09-25 12:04:24,433 __main__ line:454 INFO: Evaluation time: 4.57 min
+2020-09-25 12:23:11,178 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 12.742
+2020-09-25 12:23:11,178 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 36.623
+2020-09-25 12:23:11,179 __main__ line:398 INFO: step:32000(ep:20.60) loss:17.980(36.623)/lr:0.0008500/bs:16/xlen:1431/ylen:256 (18.78 min)
+2020-09-25 12:41:36,043 __main__ line:425 INFO: ========== EPOCH:21 (37.19 min) ==========
+2020-09-25 12:46:13,293 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-25 12:46:13,293 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-25 12:46:13,293 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-25 12:46:13,293 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:21): 49.77 %
+2020-09-25 12:46:13,293 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:21): 23.47 %
+2020-09-25 12:46:13,294 neural_sp.trainers.lr_scheduler line:144 INFO: ||||| Top-1 Score |||||
+2020-09-25 12:46:13,294 neural_sp.trainers.lr_scheduler line:150 INFO: ----- Top-1: epoch21 (49.772)
+2020-09-25 12:46:13,651 neural_sp.trainers.lr_scheduler line:217 INFO: => Saved checkpoint (epoch:21): exp/result/asr/train_100_bac30/blstm512H5L_sumfwdbwd_stack3_lr0.001_bs32_gamma0.55_normal_gdc2_2/model.epoch-21
+2020-09-25 12:46:13,652 __main__ line:454 INFO: Evaluation time: 4.63 min
+2020-09-25 12:51:36,791 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 13.393
+2020-09-25 12:51:36,791 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 37.735
+2020-09-25 12:51:36,792 __main__ line:398 INFO: step:33000(ep:21.27) loss:9.555(37.735)/lr:0.0008500/bs:16/xlen:1160/ylen:218 (5.39 min)
+2020-09-25 13:17:02,312 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 13.807
+2020-09-25 13:17:02,312 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 39.165
+2020-09-25 13:17:02,313 __main__ line:398 INFO: step:34000(ep:21.86) loss:13.838(39.165)/lr:0.0008500/bs:16/xlen:1540/ylen:280 (25.43 min)
+2020-09-25 13:23:30,854 __main__ line:425 INFO: ========== EPOCH:22 (37.29 min) ==========
+2020-09-25 13:28:06,236 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-25 13:28:06,236 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-25 13:28:06,236 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-25 13:28:06,236 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:22): 49.71 %
+2020-09-25 13:28:06,236 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:22): 23.37 %
+2020-09-25 13:28:06,236 neural_sp.trainers.lr_scheduler line:144 INFO: ||||| Top-1 Score |||||
+2020-09-25 13:28:06,236 neural_sp.trainers.lr_scheduler line:150 INFO: ----- Top-1: epoch22 (49.708)
+2020-09-25 13:28:06,583 neural_sp.trainers.lr_scheduler line:217 INFO: => Saved checkpoint (epoch:22): exp/result/asr/train_100_bac30/blstm512H5L_sumfwdbwd_stack3_lr0.001_bs32_gamma0.55_normal_gdc2_2/model.epoch-22
+2020-09-25 13:28:06,583 __main__ line:454 INFO: Evaluation time: 4.60 min
+2020-09-25 13:44:02,776 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 12.291
+2020-09-25 13:44:02,776 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 34.964
+2020-09-25 13:44:02,777 __main__ line:398 INFO: step:35000(ep:22.53) loss:8.794(34.964)/lr:0.0008500/bs:16/xlen:1397/ylen:260 (15.94 min)
+2020-09-25 14:05:22,931 __main__ line:425 INFO: ========== EPOCH:23 (37.27 min) ==========
+2020-09-25 14:10:00,080 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-25 14:10:00,080 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-25 14:10:00,080 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-25 14:10:00,080 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:23): 50.05 %
+2020-09-25 14:10:00,080 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:23): 23.60 %
+2020-09-25 14:10:00,080 neural_sp.trainers.lr_scheduler line:166 INFO: Epoch 23: reducing learning rate to 0.0007225
+2020-09-25 14:10:00,315 __main__ line:454 INFO: Evaluation time: 4.62 min
+2020-09-25 14:13:07,303 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 12.927
+2020-09-25 14:13:07,303 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 38.754
+2020-09-25 14:13:07,303 __main__ line:398 INFO: step:36000(ep:23.20) loss:14.646(38.754)/lr:0.0007225/bs:16/xlen:996/ylen:186 (3.12 min)
+2020-09-25 14:37:42,047 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 11.745
+2020-09-25 14:37:42,047 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 38.955
+2020-09-25 14:37:42,048 __main__ line:398 INFO: step:37000(ep:23.79) loss:11.948(38.955)/lr:0.0007225/bs:16/xlen:1514/ylen:292 (24.58 min)
+2020-09-25 14:47:19,512 __main__ line:425 INFO: ========== EPOCH:24 (37.32 min) ==========
+2020-09-25 14:51:54,583 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-25 14:51:54,583 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-25 14:51:54,583 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-25 14:51:54,583 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:24): 48.72 %
+2020-09-25 14:51:54,583 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:24): 22.93 %
+2020-09-25 14:51:54,583 neural_sp.trainers.lr_scheduler line:144 INFO: ||||| Top-1 Score |||||
+2020-09-25 14:51:54,583 neural_sp.trainers.lr_scheduler line:150 INFO: ----- Top-1: epoch24 (48.721)
+2020-09-25 14:51:54,932 neural_sp.trainers.lr_scheduler line:217 INFO: => Saved checkpoint (epoch:24): exp/result/asr/train_100_bac30/blstm512H5L_sumfwdbwd_stack3_lr0.001_bs32_gamma0.55_normal_gdc2_2/model.epoch-24
+2020-09-25 14:51:54,932 __main__ line:454 INFO: Evaluation time: 4.59 min
+2020-09-25 15:05:03,906 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 10.795
+2020-09-25 15:05:03,906 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 35.028
+2020-09-25 15:05:03,906 __main__ line:398 INFO: step:38000(ep:24.46) loss:14.863(35.028)/lr:0.0007225/bs:16/xlen:1358/ylen:279 (13.15 min)
+2020-09-25 15:29:29,785 __main__ line:425 INFO: ========== EPOCH:25 (37.58 min) ==========
+2020-09-25 15:34:03,581 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-25 15:34:03,581 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-25 15:34:03,581 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-25 15:34:03,581 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:25): 48.67 %
+2020-09-25 15:34:03,581 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:25): 22.79 %
+2020-09-25 15:34:03,581 neural_sp.trainers.lr_scheduler line:144 INFO: ||||| Top-1 Score |||||
+2020-09-25 15:34:03,581 neural_sp.trainers.lr_scheduler line:150 INFO: ----- Top-1: epoch25 (48.671)
+2020-09-25 15:34:03,935 neural_sp.trainers.lr_scheduler line:217 INFO: => Saved checkpoint (epoch:25): exp/result/asr/train_100_bac30/blstm512H5L_sumfwdbwd_stack3_lr0.001_bs32_gamma0.55_normal_gdc2_2/model.epoch-25
+2020-09-25 15:34:03,935 __main__ line:454 INFO: Evaluation time: 4.57 min
+2020-09-25 15:35:15,191 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 11.387
+2020-09-25 15:35:15,191 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 33.609
+2020-09-25 15:35:15,193 __main__ line:398 INFO: step:39000(ep:25.12) loss:7.013(33.609)/lr:0.0007225/bs:32/xlen:698/ylen:147 (1.19 min)
+2020-09-25 15:58:50,771 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 10.286
+2020-09-25 15:58:50,771 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 39.457
+2020-09-25 15:58:50,771 __main__ line:398 INFO: step:40000(ep:25.73) loss:9.023(39.457)/lr:0.0007225/bs:16/xlen:1487/ylen:281 (23.59 min)
+2020-09-25 15:58:51,002 matplotlib.legend line:1282 WARNING: No handles with labels found to put in legend.
+2020-09-25 15:58:51,156 matplotlib.legend line:1282 WARNING: No handles with labels found to put in legend.
+2020-09-25 16:11:39,592 __main__ line:425 INFO: ========== EPOCH:26 (37.59 min) ==========
+2020-09-25 16:16:10,716 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-25 16:16:10,717 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-25 16:16:10,717 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-25 16:16:10,717 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:26): 48.22 %
+2020-09-25 16:16:10,717 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:26): 22.70 %
+2020-09-25 16:16:10,717 neural_sp.trainers.lr_scheduler line:144 INFO: ||||| Top-1 Score |||||
+2020-09-25 16:16:10,717 neural_sp.trainers.lr_scheduler line:150 INFO: ----- Top-1: epoch26 (48.217)
+2020-09-25 16:16:11,049 neural_sp.trainers.lr_scheduler line:217 INFO: => Saved checkpoint (epoch:26): exp/result/asr/train_100_bac30/blstm512H5L_sumfwdbwd_stack3_lr0.001_bs32_gamma0.55_normal_gdc2_2/model.epoch-26
+2020-09-25 16:16:11,049 __main__ line:454 INFO: Evaluation time: 4.52 min
+2020-09-25 16:26:33,338 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 10.109
+2020-09-25 16:26:33,338 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 36.949
+2020-09-25 16:26:33,339 __main__ line:398 INFO: step:41000(ep:26.40) loss:11.742(36.949)/lr:0.0007225/bs:16/xlen:1312/ylen:245 (10.37 min)
+2020-09-25 16:53:16,199 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 11.022
+2020-09-25 16:53:16,199 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 41.555
+2020-09-25 16:53:16,200 __main__ line:398 INFO: step:42000(ep:26.99) loss:14.742(41.555)/lr:0.0007225/bs:16/xlen:1596/ylen:295 (26.71 min)
+2020-09-25 16:53:36,856 __main__ line:425 INFO: ========== EPOCH:27 (37.43 min) ==========
+2020-09-25 16:58:10,613 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-25 16:58:10,613 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-25 16:58:10,613 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-25 16:58:10,613 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:27): 48.58 %
+2020-09-25 16:58:10,613 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:27): 22.86 %
+2020-09-25 16:58:10,614 neural_sp.trainers.lr_scheduler line:166 INFO: Epoch 27: reducing learning rate to 0.0006141
+2020-09-25 16:58:10,775 __main__ line:454 INFO: Evaluation time: 4.57 min
+2020-09-25 17:19:47,295 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 8.541
+2020-09-25 17:19:47,295 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 33.227
+2020-09-25 17:19:47,296 __main__ line:398 INFO: step:43000(ep:27.66) loss:12.311(33.227)/lr:0.0006141/bs:16/xlen:1460/ylen:303 (21.61 min)
+2020-09-25 17:35:33,561 __main__ line:425 INFO: ========== EPOCH:28 (37.38 min) ==========
+2020-09-25 17:40:06,616 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-25 17:40:06,616 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-25 17:40:06,616 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-25 17:40:06,616 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:28): 48.35 %
+2020-09-25 17:40:06,616 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:28): 22.71 %
+2020-09-25 17:40:06,617 neural_sp.trainers.lr_scheduler line:166 INFO: Epoch 28: reducing learning rate to 0.0005220
+2020-09-25 17:40:06,785 __main__ line:454 INFO: Evaluation time: 4.55 min
+2020-09-25 17:47:48,443 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 8.724
+2020-09-25 17:47:48,443 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 37.339
+2020-09-25 17:47:48,444 __main__ line:398 INFO: step:44000(ep:28.33) loss:8.028(37.339)/lr:0.0005220/bs:16/xlen:1251/ylen:238 (7.69 min)
+2020-09-25 18:13:50,972 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 8.504
+2020-09-25 18:13:50,972 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 39.201
+2020-09-25 18:13:50,973 __main__ line:398 INFO: step:45000(ep:28.93) loss:7.646(39.201)/lr:0.0005220/bs:16/xlen:1566/ylen:310 (26.04 min)
+2020-09-25 18:17:24,933 __main__ line:425 INFO: ========== EPOCH:29 (37.30 min) ==========
+2020-09-25 18:21:59,740 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-25 18:21:59,740 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-25 18:21:59,740 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-25 18:21:59,740 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:29): 47.48 %
+2020-09-25 18:21:59,740 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:29): 22.27 %
+2020-09-25 18:21:59,741 neural_sp.trainers.lr_scheduler line:144 INFO: ||||| Top-1 Score |||||
+2020-09-25 18:21:59,741 neural_sp.trainers.lr_scheduler line:150 INFO: ----- Top-1: epoch29 (47.482)
+2020-09-25 18:22:00,093 neural_sp.trainers.lr_scheduler line:217 INFO: => Saved checkpoint (epoch:29): exp/result/asr/train_100_bac30/blstm512H5L_sumfwdbwd_stack3_lr0.001_bs32_gamma0.55_normal_gdc2_2/model.epoch-29
+2020-09-25 18:22:00,094 __main__ line:454 INFO: Evaluation time: 4.59 min
+2020-09-25 18:40:32,024 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 7.186
+2020-09-25 18:40:32,024 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 37.876
+2020-09-25 18:40:32,024 __main__ line:398 INFO: step:46000(ep:29.59) loss:7.748(37.876)/lr:0.0005220/bs:16/xlen:1430/ylen:293 (18.53 min)
+2020-09-25 18:59:15,962 __main__ line:425 INFO: ========== EPOCH:30 (37.26 min) ==========
+2020-09-25 19:03:51,345 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-25 19:03:51,345 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-25 19:03:51,345 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-25 19:03:51,345 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:30): 47.45 %
+2020-09-25 19:03:51,345 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:30): 22.42 %
+2020-09-25 19:03:51,346 neural_sp.trainers.lr_scheduler line:144 INFO: ||||| Top-1 Score |||||
+2020-09-25 19:03:51,346 neural_sp.trainers.lr_scheduler line:150 INFO: ----- Top-1: epoch30 (47.447)
+2020-09-25 19:03:51,701 neural_sp.trainers.lr_scheduler line:217 INFO: => Saved checkpoint (epoch:30): exp/result/asr/train_100_bac30/blstm512H5L_sumfwdbwd_stack3_lr0.001_bs32_gamma0.55_normal_gdc2_2/model.epoch-30
+2020-09-25 19:03:51,702 __main__ line:454 INFO: Evaluation time: 4.60 min
+2020-09-25 19:09:02,880 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 7.370
+2020-09-25 19:09:02,881 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 36.986
+2020-09-25 19:09:02,881 __main__ line:398 INFO: step:47000(ep:30.26) loss:3.398(36.986)/lr:0.0005220/bs:16/xlen:1156/ylen:227 (5.19 min)
+2020-09-25 19:34:21,802 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 7.416
+2020-09-25 19:34:21,802 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 39.482
+2020-09-25 19:34:21,802 __main__ line:398 INFO: step:48000(ep:30.86) loss:5.489(39.482)/lr:0.0005220/bs:16/xlen:1539/ylen:281 (25.32 min)
+2020-09-25 19:41:04,022 __main__ line:425 INFO: ========== EPOCH:31 (37.21 min) ==========
+2020-09-25 19:45:38,435 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-25 19:45:38,435 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-25 19:45:38,435 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-25 19:45:38,435 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:31): 46.85 %
+2020-09-25 19:45:38,435 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:31): 22.18 %
+2020-09-25 19:45:38,436 neural_sp.trainers.lr_scheduler line:144 INFO: ||||| Top-1 Score |||||
+2020-09-25 19:45:38,436 neural_sp.trainers.lr_scheduler line:150 INFO: ----- Top-1: epoch31 (46.846)
+2020-09-25 19:45:38,790 neural_sp.trainers.lr_scheduler line:217 INFO: => Saved checkpoint (epoch:31): exp/result/asr/train_100_bac30/blstm512H5L_sumfwdbwd_stack3_lr0.001_bs32_gamma0.55_normal_gdc2_2/model.epoch-31
+2020-09-25 19:45:38,790 __main__ line:454 INFO: Evaluation time: 4.58 min
+2020-09-25 20:01:32,220 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 6.559
+2020-09-25 20:01:32,220 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 37.852
+2020-09-25 20:01:32,221 __main__ line:398 INFO: step:49000(ep:31.53) loss:4.098(37.852)/lr:0.0005220/bs:16/xlen:1396/ylen:261 (15.89 min)
+2020-09-25 20:22:54,172 __main__ line:425 INFO: ========== EPOCH:32 (37.26 min) ==========
+2020-09-25 20:27:34,826 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-25 20:27:34,826 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-25 20:27:34,826 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-25 20:27:34,826 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:32): 46.94 %
+2020-09-25 20:27:34,826 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:32): 22.10 %
+2020-09-25 20:27:34,827 neural_sp.trainers.lr_scheduler line:166 INFO: Epoch 32: reducing learning rate to 0.0004437
+2020-09-25 20:27:34,993 __main__ line:454 INFO: Evaluation time: 4.68 min
+2020-09-25 20:30:35,508 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 6.882
+2020-09-25 20:30:35,508 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 36.996
+2020-09-25 20:30:35,509 __main__ line:398 INFO: step:50000(ep:32.20) loss:4.857(36.996)/lr:0.0004437/bs:16/xlen:987/ylen:192 (3.01 min)
+2020-09-25 20:30:35,718 matplotlib.legend line:1282 WARNING: No handles with labels found to put in legend.
+2020-09-25 20:30:35,863 matplotlib.legend line:1282 WARNING: No handles with labels found to put in legend.
+2020-09-25 20:54:54,326 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 6.149
+2020-09-25 20:54:54,326 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 41.727
+2020-09-25 20:54:54,327 __main__ line:398 INFO: step:51000(ep:32.79) loss:8.221(41.727)/lr:0.0004437/bs:16/xlen:1513/ylen:282 (24.31 min)
+2020-09-25 21:04:38,007 __main__ line:425 INFO: ========== EPOCH:33 (37.05 min) ==========
+2020-09-25 21:09:18,622 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-25 21:09:18,622 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-25 21:09:18,622 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-25 21:09:18,622 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:33): 46.44 %
+2020-09-25 21:09:18,622 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:33): 21.89 %
+2020-09-25 21:09:18,622 neural_sp.trainers.lr_scheduler line:144 INFO: ||||| Top-1 Score |||||
+2020-09-25 21:09:18,622 neural_sp.trainers.lr_scheduler line:150 INFO: ----- Top-1: epoch33 (46.445)
+2020-09-25 21:09:18,957 neural_sp.trainers.lr_scheduler line:217 INFO: => Saved checkpoint (epoch:33): exp/result/asr/train_100_bac30/blstm512H5L_sumfwdbwd_stack3_lr0.001_bs32_gamma0.55_normal_gdc2_2/model.epoch-33
+2020-09-25 21:09:18,957 __main__ line:454 INFO: Evaluation time: 4.68 min
+2020-09-25 21:22:11,381 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 5.661
+2020-09-25 21:22:11,381 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 37.822
+2020-09-25 21:22:11,382 __main__ line:398 INFO: step:52000(ep:33.46) loss:4.534(37.822)/lr:0.0004437/bs:16/xlen:1357/ylen:254 (12.87 min)
+2020-09-25 21:46:20,374 __main__ line:425 INFO: ========== EPOCH:34 (37.02 min) ==========
+2020-09-25 21:50:56,013 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-25 21:50:56,013 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-25 21:50:56,013 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-25 21:50:56,013 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:34): 46.25 %
+2020-09-25 21:50:56,014 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:34): 21.70 %
+2020-09-25 21:50:56,014 neural_sp.trainers.lr_scheduler line:144 INFO: ||||| Top-1 Score |||||
+2020-09-25 21:50:56,014 neural_sp.trainers.lr_scheduler line:150 INFO: ----- Top-1: epoch34 (46.252)
+2020-09-25 21:50:56,370 neural_sp.trainers.lr_scheduler line:217 INFO: => Saved checkpoint (epoch:34): exp/result/asr/train_100_bac30/blstm512H5L_sumfwdbwd_stack3_lr0.001_bs32_gamma0.55_normal_gdc2_2/model.epoch-34
+2020-09-25 21:50:56,371 __main__ line:454 INFO: Evaluation time: 4.60 min
+2020-09-25 21:52:03,562 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 5.900
+2020-09-25 21:52:03,562 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 35.361
+2020-09-25 21:52:03,563 __main__ line:398 INFO: step:53000(ep:34.11) loss:6.059(35.361)/lr:0.0004437/bs:32/xlen:679/ylen:143 (1.12 min)
+2020-09-25 22:15:23,608 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 5.252
+2020-09-25 22:15:23,608 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 43.232
+2020-09-25 22:15:23,609 __main__ line:398 INFO: step:54000(ep:34.73) loss:6.756(43.232)/lr:0.0004437/bs:16/xlen:1486/ylen:304 (23.33 min)
+2020-09-25 22:28:06,908 __main__ line:425 INFO: ========== EPOCH:35 (37.18 min) ==========
+2020-09-25 22:32:44,034 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-25 22:32:44,034 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-25 22:32:44,034 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-25 22:32:44,035 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:35): 45.85 %
+2020-09-25 22:32:44,035 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:35): 21.62 %
+2020-09-25 22:32:44,035 neural_sp.trainers.lr_scheduler line:144 INFO: ||||| Top-1 Score |||||
+2020-09-25 22:32:44,035 neural_sp.trainers.lr_scheduler line:150 INFO: ----- Top-1: epoch35 (45.846)
+2020-09-25 22:32:44,402 neural_sp.trainers.lr_scheduler line:217 INFO: => Saved checkpoint (epoch:35): exp/result/asr/train_100_bac30/blstm512H5L_sumfwdbwd_stack3_lr0.001_bs32_gamma0.55_normal_gdc2_2/model.epoch-35
+2020-09-25 22:32:44,403 __main__ line:454 INFO: Evaluation time: 4.62 min
+2020-09-25 22:42:57,881 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 5.197
+2020-09-25 22:42:57,881 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 36.004
+2020-09-25 22:42:57,882 __main__ line:398 INFO: step:55000(ep:35.39) loss:3.773(36.004)/lr:0.0004437/bs:16/xlen:1310/ylen:251 (10.22 min)
+2020-09-25 23:09:29,309 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 5.594
+2020-09-25 23:09:29,309 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 41.688
+2020-09-25 23:09:29,310 __main__ line:398 INFO: step:56000(ep:35.99) loss:6.503(41.688)/lr:0.0004437/bs:16/xlen:1595/ylen:286 (26.52 min)
+2020-09-25 23:09:56,778 __main__ line:425 INFO: ========== EPOCH:36 (37.21 min) ==========
+2020-09-25 23:14:38,497 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-25 23:14:38,497 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-25 23:14:38,497 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-25 23:14:38,498 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:36): 46.27 %
+2020-09-25 23:14:38,498 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:36): 21.78 %
+2020-09-25 23:14:38,498 neural_sp.trainers.lr_scheduler line:166 INFO: Epoch 36: reducing learning rate to 0.0003771
+2020-09-25 23:14:38,756 __main__ line:454 INFO: Evaluation time: 4.70 min
+2020-09-25 23:36:03,460 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 4.314
+2020-09-25 23:36:03,461 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 37.522
+2020-09-25 23:36:03,462 __main__ line:398 INFO: step:57000(ep:36.66) loss:4.863(37.522)/lr:0.0003771/bs:16/xlen:1459/ylen:257 (21.41 min)
+2020-09-25 23:51:52,198 __main__ line:425 INFO: ========== EPOCH:37 (37.22 min) ==========
+2020-09-25 23:56:33,391 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-25 23:56:33,391 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-25 23:56:33,391 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-25 23:56:33,391 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:37): 45.87 %
+2020-09-25 23:56:33,391 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:37): 21.64 %
+2020-09-25 23:56:33,391 neural_sp.trainers.lr_scheduler line:166 INFO: Epoch 37: reducing learning rate to 0.0003206
+2020-09-25 23:56:33,560 __main__ line:454 INFO: Evaluation time: 4.69 min
+2020-09-26 00:04:14,139 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 4.446
+2020-09-26 00:04:14,140 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 37.036
+2020-09-26 00:04:14,140 __main__ line:398 INFO: step:58000(ep:37.33) loss:4.791(37.036)/lr:0.0003206/bs:16/xlen:1249/ylen:254 (7.68 min)
+2020-09-26 00:30:03,369 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 4.268
+2020-09-26 00:30:03,369 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 45.198
+2020-09-26 00:30:03,369 __main__ line:398 INFO: step:59000(ep:37.92) loss:5.779(45.198)/lr:0.0003206/bs:16/xlen:1565/ylen:284 (25.82 min)
+2020-09-26 00:33:41,502 __main__ line:425 INFO: ========== EPOCH:38 (37.13 min) ==========
+2020-09-26 00:38:21,018 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-26 00:38:21,018 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-26 00:38:21,018 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-26 00:38:21,019 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:38): 45.52 %
+2020-09-26 00:38:21,019 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:38): 21.46 %
+2020-09-26 00:38:21,019 neural_sp.trainers.lr_scheduler line:144 INFO: ||||| Top-1 Score |||||
+2020-09-26 00:38:21,019 neural_sp.trainers.lr_scheduler line:150 INFO: ----- Top-1: epoch38 (45.519)
+2020-09-26 00:38:21,375 neural_sp.trainers.lr_scheduler line:217 INFO: => Saved checkpoint (epoch:38): exp/result/asr/train_100_bac30/blstm512H5L_sumfwdbwd_stack3_lr0.001_bs32_gamma0.55_normal_gdc2_2/model.epoch-38
+2020-09-26 00:38:21,375 __main__ line:454 INFO: Evaluation time: 4.66 min
+2020-09-26 00:56:52,436 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 3.590
+2020-09-26 00:56:52,436 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 38.204
+2020-09-26 00:56:52,437 __main__ line:398 INFO: step:60000(ep:38.59) loss:3.365(38.204)/lr:0.0003206/bs:16/xlen:1429/ylen:274 (18.52 min)
+2020-09-26 00:56:52,659 matplotlib.legend line:1282 WARNING: No handles with labels found to put in legend.
+2020-09-26 00:56:52,808 matplotlib.legend line:1282 WARNING: No handles with labels found to put in legend.
+2020-09-26 01:15:40,760 __main__ line:425 INFO: ========== EPOCH:39 (37.32 min) ==========
+2020-09-26 01:20:20,820 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-26 01:20:20,820 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-26 01:20:20,820 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-26 01:20:20,820 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:39): 45.58 %
+2020-09-26 01:20:20,820 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:39): 21.47 %
+2020-09-26 01:20:20,820 neural_sp.trainers.lr_scheduler line:166 INFO: Epoch 39: reducing learning rate to 0.0002725
+2020-09-26 01:20:20,977 __main__ line:454 INFO: Evaluation time: 4.67 min
+2020-09-26 01:25:33,998 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 3.754
+2020-09-26 01:25:33,998 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 39.602
+2020-09-26 01:25:33,999 __main__ line:398 INFO: step:61000(ep:39.26) loss:0.766(39.602)/lr:0.0002725/bs:16/xlen:1152/ylen:210 (5.22 min)
+2020-09-26 01:50:49,374 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 3.409
+2020-09-26 01:50:49,374 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 42.393
+2020-09-26 01:50:49,374 __main__ line:398 INFO: step:62000(ep:39.86) loss:1.571(42.393)/lr:0.0002725/bs:16/xlen:1538/ylen:265 (25.26 min)
+2020-09-26 01:57:38,315 __main__ line:425 INFO: ========== EPOCH:40 (37.29 min) ==========
+2020-09-26 02:02:20,608 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-26 02:02:20,608 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-26 02:02:20,608 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-26 02:02:20,608 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:40): 45.14 %
+2020-09-26 02:02:20,608 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:40): 21.30 %
+2020-09-26 02:02:20,608 neural_sp.trainers.lr_scheduler line:144 INFO: ||||| Top-1 Score |||||
+2020-09-26 02:02:20,608 neural_sp.trainers.lr_scheduler line:150 INFO: ----- Top-1: epoch40 (45.137)
+2020-09-26 02:02:20,983 neural_sp.trainers.lr_scheduler line:217 INFO: => Saved checkpoint (epoch:40): exp/result/asr/train_100_bac30/blstm512H5L_sumfwdbwd_stack3_lr0.001_bs32_gamma0.55_normal_gdc2_2/model.epoch-40
+2020-09-26 02:02:20,983 __main__ line:454 INFO: Evaluation time: 4.71 min
+2020-09-26 02:18:01,034 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 3.068
+2020-09-26 02:18:01,034 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 39.209
+2020-09-26 02:18:01,035 __main__ line:398 INFO: step:63000(ep:40.53) loss:1.437(39.209)/lr:0.0002725/bs:16/xlen:1395/ylen:264 (15.67 min)
+2020-09-26 02:39:42,777 __main__ line:425 INFO: ========== EPOCH:41 (37.36 min) ==========
+2020-09-26 02:44:23,577 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-26 02:44:23,577 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-26 02:44:23,577 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-26 02:44:23,577 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:41): 45.16 %
+2020-09-26 02:44:23,578 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:41): 21.33 %
+2020-09-26 02:44:23,578 neural_sp.trainers.lr_scheduler line:166 INFO: Epoch 41: reducing learning rate to 0.0002316
+2020-09-26 02:44:23,758 __main__ line:454 INFO: Evaluation time: 4.68 min
+2020-09-26 02:47:21,255 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 3.193
+2020-09-26 02:47:21,255 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 37.149
+2020-09-26 02:47:21,255 __main__ line:398 INFO: step:64000(ep:41.19) loss:2.364(37.149)/lr:0.0002316/bs:16/xlen:978/ylen:207 (2.96 min)
+2020-09-26 03:11:42,281 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 2.803
+2020-09-26 03:11:42,281 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 41.669
+2020-09-26 03:11:42,282 __main__ line:398 INFO: step:65000(ep:41.79) loss:0.949(41.669)/lr:0.0002316/bs:16/xlen:1512/ylen:286 (24.35 min)
+2020-09-26 03:21:37,989 __main__ line:425 INFO: ========== EPOCH:42 (37.24 min) ==========
+2020-09-26 03:26:16,664 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-26 03:26:16,665 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-26 03:26:16,665 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-26 03:26:16,665 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:42): 45.14 %
+2020-09-26 03:26:16,665 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:42): 21.37 %
+2020-09-26 03:26:16,665 neural_sp.trainers.lr_scheduler line:166 INFO: Epoch 42: reducing learning rate to 0.0001969
+2020-09-26 03:26:16,836 __main__ line:454 INFO: Evaluation time: 4.65 min
+2020-09-26 03:39:14,507 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 2.571
+2020-09-26 03:39:14,507 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 38.360
+2020-09-26 03:39:14,508 __main__ line:398 INFO: step:66000(ep:42.46) loss:4.064(38.360)/lr:0.0001969/bs:16/xlen:1356/ylen:244 (12.96 min)
+2020-09-26 04:03:35,876 __main__ line:425 INFO: ========== EPOCH:43 (37.32 min) ==========
+2020-09-26 04:08:15,625 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-26 04:08:15,625 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-26 04:08:15,625 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-26 04:08:15,625 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:43): 44.85 %
+2020-09-26 04:08:15,625 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:43): 21.17 %
+2020-09-26 04:08:15,625 neural_sp.trainers.lr_scheduler line:144 INFO: ||||| Top-1 Score |||||
+2020-09-26 04:08:15,625 neural_sp.trainers.lr_scheduler line:150 INFO: ----- Top-1: epoch43 (44.852)
+2020-09-26 04:08:15,999 neural_sp.trainers.lr_scheduler line:217 INFO: => Saved checkpoint (epoch:43): exp/result/asr/train_100_bac30/blstm512H5L_sumfwdbwd_stack3_lr0.001_bs32_gamma0.55_normal_gdc2_2/model.epoch-43
+2020-09-26 04:08:15,999 __main__ line:454 INFO: Evaluation time: 4.67 min
+2020-09-26 04:09:18,617 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 2.500
+2020-09-26 04:09:18,617 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 38.779
+2020-09-26 04:09:18,617 __main__ line:398 INFO: step:67000(ep:43.11) loss:1.632(38.779)/lr:0.0001969/bs:32/xlen:659/ylen:142 (1.04 min)
+2020-09-26 04:32:42,428 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 2.219
+2020-09-26 04:32:42,428 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 44.759
+2020-09-26 04:32:42,429 __main__ line:398 INFO: step:68000(ep:43.72) loss:0.887(44.759)/lr:0.0001969/bs:16/xlen:1485/ylen:267 (23.40 min)
+2020-09-26 04:45:40,281 __main__ line:425 INFO: ========== EPOCH:44 (37.40 min) ==========
+2020-09-26 04:50:21,404 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-26 04:50:21,404 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-26 04:50:21,404 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-26 04:50:21,404 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:44): 44.75 %
+2020-09-26 04:50:21,404 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:44): 21.08 %
+2020-09-26 04:50:21,404 neural_sp.trainers.lr_scheduler line:144 INFO: ||||| Top-1 Score |||||
+2020-09-26 04:50:21,404 neural_sp.trainers.lr_scheduler line:150 INFO: ----- Top-1: epoch44 (44.749)
+2020-09-26 04:50:21,756 neural_sp.trainers.lr_scheduler line:217 INFO: => Saved checkpoint (epoch:44): exp/result/asr/train_100_bac30/blstm512H5L_sumfwdbwd_stack3_lr0.001_bs32_gamma0.55_normal_gdc2_2/model.epoch-44
+2020-09-26 04:50:21,756 __main__ line:454 INFO: Evaluation time: 4.69 min
+2020-09-26 05:00:36,711 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 2.215
+2020-09-26 05:00:36,711 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 38.449
+2020-09-26 05:00:36,711 __main__ line:398 INFO: step:69000(ep:44.39) loss:2.421(38.449)/lr:0.0001969/bs:16/xlen:1308/ylen:245 (10.25 min)
+2020-09-26 05:27:07,363 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 2.261
+2020-09-26 05:27:07,363 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 44.382
+2020-09-26 05:27:07,364 __main__ line:398 INFO: step:70000(ep:44.99) loss:2.817(44.382)/lr:0.0001969/bs:16/xlen:1594/ylen:307 (26.51 min)
+2020-09-26 05:27:07,582 matplotlib.legend line:1282 WARNING: No handles with labels found to put in legend.
+2020-09-26 05:27:07,728 matplotlib.legend line:1282 WARNING: No handles with labels found to put in legend.
+2020-09-26 05:27:43,483 __main__ line:425 INFO: ========== EPOCH:45 (37.36 min) ==========
+2020-09-26 05:32:26,915 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-26 05:32:26,915 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-26 05:32:26,915 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-26 05:32:26,915 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:45): 44.76 %
+2020-09-26 05:32:26,915 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:45): 21.04 %
+2020-09-26 05:32:26,915 neural_sp.trainers.lr_scheduler line:166 INFO: Epoch 45: reducing learning rate to 0.0001673
+2020-09-26 05:32:27,067 __main__ line:454 INFO: Evaluation time: 4.73 min
+2020-09-26 05:53:52,422 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 1.836
+2020-09-26 05:53:52,422 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 38.023
+2020-09-26 05:53:52,423 __main__ line:398 INFO: step:71000(ep:45.66) loss:2.073(38.023)/lr:0.0001673/bs:16/xlen:1458/ylen:278 (21.42 min)
+2020-09-26 06:09:53,134 __main__ line:425 INFO: ========== EPOCH:46 (37.43 min) ==========
+2020-09-26 06:14:32,650 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-26 06:14:32,650 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-26 06:14:32,650 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-26 06:14:32,650 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:46): 44.94 %
+2020-09-26 06:14:32,650 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:46): 21.18 %
+2020-09-26 06:14:32,650 neural_sp.trainers.lr_scheduler line:166 INFO: Epoch 46: reducing learning rate to 0.0001422
+2020-09-26 06:14:32,809 __main__ line:454 INFO: Evaluation time: 4.66 min
+2020-09-26 06:22:13,079 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 1.869
+2020-09-26 06:22:13,079 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 39.204
+2020-09-26 06:22:13,079 __main__ line:398 INFO: step:72000(ep:46.33) loss:0.803(39.204)/lr:0.0001422/bs:16/xlen:1246/ylen:218 (7.67 min)
+2020-09-26 06:48:06,343 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 1.730
+2020-09-26 06:48:06,343 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 45.006
+2020-09-26 06:48:06,343 __main__ line:398 INFO: step:73000(ep:46.92) loss:1.343(45.006)/lr:0.0001422/bs:16/xlen:1564/ylen:317 (25.89 min)
+2020-09-26 06:51:52,046 __main__ line:425 INFO: ========== EPOCH:47 (37.32 min) ==========
+2020-09-26 06:56:34,989 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-26 06:56:34,989 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-26 06:56:34,989 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-26 06:56:34,989 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:47): 44.49 %
+2020-09-26 06:56:34,989 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:47): 20.93 %
+2020-09-26 06:56:34,989 neural_sp.trainers.lr_scheduler line:144 INFO: ||||| Top-1 Score |||||
+2020-09-26 06:56:34,990 neural_sp.trainers.lr_scheduler line:150 INFO: ----- Top-1: epoch47 (44.490)
+2020-09-26 06:56:35,355 neural_sp.trainers.lr_scheduler line:217 INFO: => Saved checkpoint (epoch:47): exp/result/asr/train_100_bac30/blstm512H5L_sumfwdbwd_stack3_lr0.001_bs32_gamma0.55_normal_gdc2_2/model.epoch-47
+2020-09-26 06:56:35,355 __main__ line:454 INFO: Evaluation time: 4.72 min
+2020-09-26 07:15:09,819 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 1.522
+2020-09-26 07:15:09,819 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 40.035
+2020-09-26 07:15:09,820 __main__ line:398 INFO: step:74000(ep:47.59) loss:2.606(40.035)/lr:0.0001422/bs:16/xlen:1427/ylen:247 (18.57 min)
+2020-09-26 07:33:56,255 __main__ line:425 INFO: ========== EPOCH:48 (37.35 min) ==========
+2020-09-26 07:38:35,075 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-26 07:38:35,075 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-26 07:38:35,075 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-26 07:38:35,076 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:48): 44.41 %
+2020-09-26 07:38:35,076 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:48): 20.91 %
+2020-09-26 07:38:35,076 neural_sp.trainers.lr_scheduler line:144 INFO: ||||| Top-1 Score |||||
+2020-09-26 07:38:35,076 neural_sp.trainers.lr_scheduler line:150 INFO: ----- Top-1: epoch48 (44.407)
+2020-09-26 07:38:35,519 neural_sp.trainers.lr_scheduler line:217 INFO: => Saved checkpoint (epoch:48): exp/result/asr/train_100_bac30/blstm512H5L_sumfwdbwd_stack3_lr0.001_bs32_gamma0.55_normal_gdc2_2/model.epoch-48
+2020-09-26 07:38:35,520 __main__ line:454 INFO: Evaluation time: 4.65 min
+2020-09-26 07:43:46,026 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 1.587
+2020-09-26 07:43:46,027 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 39.389
+2020-09-26 07:43:46,027 __main__ line:398 INFO: step:75000(ep:48.26) loss:2.353(39.389)/lr:0.0001422/bs:16/xlen:1147/ylen:215 (5.18 min)
+2020-09-26 08:09:04,305 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 1.475
+2020-09-26 08:09:04,306 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 46.079
+2020-09-26 08:09:04,306 __main__ line:398 INFO: step:76000(ep:48.85) loss:3.551(46.079)/lr:0.0001422/bs:16/xlen:1537/ylen:297 (25.30 min)
+2020-09-26 08:15:58,303 __main__ line:425 INFO: ========== EPOCH:49 (37.38 min) ==========
+2020-09-26 08:20:31,726 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-26 08:20:31,726 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-26 08:20:31,726 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-26 08:20:31,726 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:49): 44.65 %
+2020-09-26 08:20:31,726 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:49): 21.07 %
+2020-09-26 08:20:31,727 neural_sp.trainers.lr_scheduler line:166 INFO: Epoch 49: reducing learning rate to 0.0001209
+2020-09-26 08:20:31,888 __main__ line:454 INFO: Evaluation time: 4.56 min
+2020-09-26 08:37:05,302 neural_sp.trainers.reporter line:79 INFO: loss.ctc (train): 1.349
+2020-09-26 08:37:05,303 neural_sp.trainers.reporter line:84 INFO: loss.ctc (dev): 41.211
+2020-09-26 08:37:05,303 __main__ line:398 INFO: step:77000(ep:49.52) loss:1.870(41.211)/lr:0.0001209/bs:16/xlen:1393/ylen:266 (16.56 min)
+2020-09-26 08:58:54,182 __main__ line:425 INFO: ========== EPOCH:50 (38.37 min) ==========
+2020-09-26 09:03:27,263 neural_sp.evaluators.bac line:176 INFO: Streamablility (dev_other_100_bac30): 0.00 %
+2020-09-26 09:03:27,263 neural_sp.evaluators.bac line:177 INFO: Quantity rate (dev_other_100_bac30): 100.00 %
+2020-09-26 09:03:27,263 neural_sp.evaluators.bac line:178 INFO: Last success frame ratio (dev_other_100_bac30): 0.00 %
+2020-09-26 09:03:27,263 __main__ line:511 INFO: WER (dev_other_100_bac30, ep:50): 44.45 %
+2020-09-26 09:03:27,263 __main__ line:512 INFO: CER (dev_other_100_bac30, ep:50): 20.98 %
+2020-09-26 09:03:27,263 neural_sp.trainers.lr_scheduler line:166 INFO: Epoch 50: reducing learning rate to 0.0001028
+2020-09-26 09:03:27,424 __main__ line:454 INFO: Evaluation time: 4.55 min
+2020-09-26 09:03:27,425 __main__ line:476 INFO: Total time: 34.91 hour
+2020-09-26 09:03:27,472 numba.cuda.cudadrv.driver line:594 INFO: add pending dealloc: module_unload ? bytes
+2020-09-26 09:03:27,472 numba.cuda.cudadrv.driver line:594 INFO: add pending dealloc: module_unload ? bytes
